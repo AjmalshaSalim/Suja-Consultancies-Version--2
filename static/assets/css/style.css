@@ -3609,7 +3609,7 @@ body{
 .contact-area form .form-group .form-control {
   height:50px;
   padding:5px 20px;
-  background:#fafafa
+  background:#fff;
 }
 .contact-area form .form-group .message-field {
   height:100%;
