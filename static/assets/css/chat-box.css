@@ -1,0 +1,587 @@
+  .chat-box{
+    border: 1px solid rgb(189, 189, 189);
+    border-radius: 5px;
+    position: absolute;
+    top: -800%;
+    width: 25%;
+    height: auto;
+    left: 50%;
+    background-color: white;
+  }
+  .chat-box-head{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .chat-box-footer{
+    display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
+  }
+  .chat-box-middle
+  {
+    height: 30vh;
+    background-image:linear-gradient(rgba(109, 108, 108, 0.616),rgba(109, 108, 108, 0.616)), url(../images/background-img/bg-chat.jpg);
+    margin-bottom: 5%;
+  }
+  .chat-para{
+    background-color: brown;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+    margin-top: 5%;
+  }
+  .logo-chat-box-1{
+    width: 11%;
+  }
+  .chat-h4{
+    margin-top: 3%;
+  }
+  .chat-close,
+  .chat-send {
+    font-size: xx-large;
+  }
+  .form-pass-icon{
+  display: inline;
+  
+  }
+
+  .password-icon {
+    display: inline;  
+    text-align: start !important;
+    padding: 2%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-left: -9%;
+    margin-top: 1px;
+  }
+  .form-pass-icon-reg{
+    display: inline;
+    
+    }
+    .password-icon-reg {
+      display: inline;  
+      text-align: start !important;
+      padding: 2%;
+      padding-top: 7px;
+      padding-bottom: 7px;
+      margin-left: -15%;
+      margin-top: 1px;
+      position: relative;
+      bottom: 30px;
+      left: 110px;
+
+    }
+    .form-pass-icon-reset{
+      display: inline;
+      
+      }
+      .password-icon-reset {
+        display: inline;  
+        text-align: start !important;
+        padding: 2%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-left: -15%;
+        margin-top: 1px;
+      }
+  #chat-box-mob{
+    top:-800%;
+  }
+  
+  #close-eye,#close-eye-reg,#close-eye-reset {
+    display: none;
+  }
+
+  @media screen and (min-width: 1900px) and (max-width:2000px) {
+      .password-icon{
+     
+      }
+  }
+  
+  @media screen and (min-width: 1800px) and (max-width:1900px) {
+      .password-icon{
+      
+      }
+  }
+  
+  @media screen and (min-width: 1700px) and (max-width:1800px) {
+      .password-icon{
+  
+      }
+  }
+  
+  @media screen and (min-width: 1600px) and (max-width:1700px) {
+      .password-icon{
+        
+      }
+  }
+  
+  @media screen and (min-width: 1500px) and (max-width:1600px) {
+      .password-icon{
+       
+      }
+  }
+  
+  @media screen and (min-width: 1400px) and (max-width:1500px) {
+      .chat-h4 {
+          margin-top: 5%;
+          font-size: 100%;
+        }
+        .logo-chat-box-1 {
+          width: 21%;
+        }
+        .chat-close{
+          font-size: xx-large;
+        }
+        .chat-para{
+          font-size: medium;
+        }
+        .password-icon{
+          
+      }
+  }
+  
+  @media screen and (max-width: 1400px) and (min-width: 1300px) {
+      .chat-h4 {
+          margin-top: 6%;
+          font-size: 100%;
+        }
+        .logo-chat-box-1 {
+          width: 21%;
+        }
+        .chat-close{
+          font-size: x-large;
+        }
+        .chat-para{
+          font-size: medium;
+        }
+        .password-icon{
+         
+      }
+      .chat-box{
+        width: 30%;
+      }
+  }
+  @media screen and (max-width: 1300px) and (min-width: 1200px) {
+      .chat-h4 {
+          margin-top: 7%;
+          font-size: 100%;
+        }
+        .logo-chat-box-1 {
+          width: 21%;
+        }
+        .chat-close{
+          font-size: larger;
+        }
+        .chat-para{
+          font-size: medium;
+        }
+        .password-icon{
+          
+      }
+      .chat-box{
+        width: 35%;
+      }
+  }
+  
+  @media screen and (max-width: 1200px) and (min-width: 1100px) {
+      .chat-h4 {
+          margin-top: 8%;
+          font-size: 100%;
+        }
+      .logo-chat-box-1 {
+          width: 21%;
+        }
+        .chat-close{
+          font-size: large;
+        }
+        .chat-para{
+          font-size: medium;
+        }
+        .password-icon{
+        font-size: medium;
+        margin-left: -8%;
+      }
+      .password-icon-reg{
+        margin-left: -18%;
+      }
+      .chat-box{
+        width: 35%;
+      }
+  }
+  
+  @media screen and (max-width: 1100px) and (min-width: 1000px) {
+      .chat-h4{
+        
+          margin-top: 9%;
+      }
+      .logo-chat-box-1 {
+          width: 21%;
+        }
+        .chat-close{
+          font-size: medium;
+        }
+        .chat-para{
+          font-size: small;
+        }
+        .password-icon{
+          font-size: smaller;
+          margin-left: -8%;
+      }
+      .password-icon-reg{
+        font-size: smaller;
+        margin-left: -16%;
+      }
+      .chat-box{
+        width: 40%;
+      }
+  }
+  
+  @media screen and (max-width: 1000px) and (min-width: 900px) {
+      .password-icon{
+        font-size: small;
+        margin-left: -9%;
+      }
+      .chat-box {
+        top: 100%;
+        width: 45%;
+        height: auto;
+        left: 40%;
+      }
+      .logo-chat-box-1 {
+        width: 16%;
+      }
+      .form-control-1{
+        font-size: small;
+      }
+      .password-icon-reg{
+        font-size: smaller;
+        margin-left: -20%;
+      }
+      
+  }
+  
+  @media screen and (max-width: 900px) and (min-width: 800px) {
+      .password-icon{
+        font-size: small;
+        margin-left: -9%;
+      }
+      .chat-box {
+        top: 100%;
+        width: 45%;
+        height: auto;
+        left: 40%;
+      }
+      .logo-chat-box-1 {
+        width: 16%;
+      }
+      .form-control-1{
+        font-size: small;
+      }
+      .password-icon-reg{
+        font-size: smaller;
+        margin-left: -20%;
+      }
+  }
+  
+  @media screen and (max-width: 800px) and (min-width: 700px) {
+    .password-icon{
+      font-size: small;
+        margin-left: -10%;
+    }
+      .chat-box {
+        top: 100%;
+        width: 45%;
+        height: auto;
+        left: 40%;
+      }
+      .logo-chat-box-1 {
+        width: 16%;
+      }
+      .chat-para{
+        font-size: 71%;
+      }
+      .form-control-1{
+        font-size: x-small;
+      }
+      .password-icon-reg{
+        font-size: smaller;
+        margin-left: -9%;
+      }
+  }
+  
+  @media screen and (max-width: 700px) and (min-width: 600px) {
+      .password-icon{
+        font-size: small;
+        margin-left: -11%;
+      }
+      .form-control-1{
+        font-size: x-small;
+      }
+      .chat-box {
+        top: 100%;
+        width: 45%;
+        height: auto;
+        left: 40%;
+      }
+      .logo-chat-box-1 {
+        width: 16%;
+      }
+      .chat-para{
+        font-size: 71%;
+      }
+      .chat-h4 {
+        margin-top: 8%;
+        font-size: 86%;
+      }
+      .chat-close {
+        font-size: large;
+      }
+      .chat-box-middle {
+        height: 25vh;
+      }
+      .password-icon-reg{
+        font-size: smaller;
+        margin-left: -9%;
+      }
+  }
+  
+  @media screen and (max-width: 600px) and (min-width: 500px) {
+    .password-icon{
+      font-size: small;
+      margin-left: -7%;
+    }
+    .form-control-1{
+      font-size: x-small;
+    }
+        .chat-box {
+          top: 100%;
+          width: 45%;
+          height: auto;
+          left: 40%;
+        }
+        .logo-chat-box-1 {
+          width: 16%;
+        }
+        .chat-para{
+          font-size: 60%;
+        }
+        .chat-h4 {
+          margin-top: 8%;
+          font-size: 86%;
+        }
+        .chat-close,.chat-send{
+          font-size: large;
+        }
+        .chat-box-middle {
+          height: 20vh;
+        }
+        .password-icon-reg{
+          font-size: smaller;
+          margin-left: -9%;
+        }
+  }
+  
+  @media screen and (max-width: 500px) and (min-width: 450px) {
+    .password-icon{
+      font-size: small;
+      margin-left: -7%;
+    }
+    .form-control-1{
+      font-size: x-small;
+    }
+        .chat-box {
+          top: 100%;
+          width: 45%;
+          height: auto;
+          left: 40%;
+        }
+        .logo-chat-box-1 {
+          width: 16%;
+        }
+        .chat-para{
+          font-size: 40%;
+        }
+        .chat-h4 {
+          margin-top: 8%;
+          font-size: 86%;
+        }
+        .chat-close,.chat-send{
+          font-size: large;
+        }
+        #chat-input{
+          font-size: 50%;
+        }
+        .chat-box-middle {
+          height: 15vh;
+        }
+        .password-icon-reg{
+          font-size: smaller;
+          margin-left: -10%;
+        }
+  }
+  
+  @media screen and (max-width: 450px) and (min-width: 400px) {
+    .password-icon{
+        font-size: small;
+        margin-left: -17%;
+        padding-top: 10px;
+        top: -25px;  
+    }
+    .form-control-1{
+      font-size: x-small;
+    }
+        .chat-box {
+          top: 100%;
+          width: 50%;
+          height: auto;
+          left: 40%;
+        }
+        .logo-chat-box-1 {
+          width: 24%;
+        }
+        .chat-para{
+          font-size: 40%;
+        }
+        .chat-h4 {
+          margin-top: 8%;
+          font-size: 58%;
+        }
+        .chat-close,.chat-send{
+          font-size: medium;
+        }
+        #chat-input{
+          font-size: 50%;
+        }
+        .chat-box-middle {
+          height: 12vh;
+        }
+        .password-icon-reg{
+          font-size: smaller;
+          margin-left: 10%;
+        }
+  }
+  @media screen and (max-width: 400px) and (min-width: 350px) {
+    
+      .password-icon{
+        font-size: small;
+        margin-left: -7%;
+      
+    }
+    .form-control-1{
+      font-size: x-small;
+    }
+        .chat-box {
+          top: 100%;
+          width: 50%;
+          height: auto;
+          left: 40%;
+        }
+        .logo-chat-box-1 {
+          width: 24%;
+        }
+        .chat-para{
+          font-size: 40%;
+        }
+        .chat-h4 {
+          margin-top: 8%;
+          font-size: 58%;
+        }
+        .chat-close,.chat-send{
+          font-size: medium;
+        }
+        #chat-input{
+          font-size: 50%;
+        }
+        .chat-box-middle {
+          height: 12vh;
+        }
+        .password-icon-reg{
+          font-size: smaller;
+          margin-left: -12%;
+        }
+  }
+  @media screen and (max-width: 350px) and (min-width: 300px) {
+   
+      .password-icon{
+        font-size: small;
+        margin-left: -8%;
+      
+    }
+    .form-control-1{
+      font-size: x-small;
+    }
+        .chat-box {
+          top: 100%;
+          width: 50%;
+          height: auto;
+          left: 40%;
+        }
+        .logo-chat-box-1 {
+          width: 24%;
+        }
+        .chat-para{
+          font-size: 40%;
+        }
+        .chat-h4 {
+          margin-top: 8%;
+          font-size: 58%;
+        }
+        .chat-close,.chat-send{
+          font-size: medium;
+        }
+        #chat-input{
+          font-size: 50%;
+        }
+        .chat-box-middle {
+          height: 12vh;
+        }
+        .password-icon-reg{
+          font-size: smaller;
+          margin-left: -15%;
+        }
+  }
+  
+  @media screen and (max-width: 300px) and (min-width: 200px) {
+    
+      .password-icon{
+        font-size: small;
+        margin-left: -9%;
+      }
+    
+    .form-control-1{
+      font-size: xx-small;
+    }
+        .chat-box {
+          top: 100%;
+          width: 50%;
+          height: auto;
+          left: 40%;
+        }
+        .logo-chat-box-1 {
+          width: 24%;
+        }
+        .chat-para{
+          font-size: 20%;
+        }
+        .chat-h4 {
+          margin-top: 8%;
+          font-size: 39%;
+        }
+        .chat-close,.chat-send{
+          font-size: medium;
+        }
+        #chat-input{
+          font-size: 40%;
+        }
+        .chat-box-middle {
+          height: 8vh;
+        }
+        .password-icon-reg{
+          font-size: smaller;
+          margin-left: -19%;
+        }
+  }
+  

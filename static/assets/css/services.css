@@ -1,0 +1,353 @@
+.bg-h3-interview{
+  font-size: 174% !important
+}
+.interview-type-div{
+  border: 1px solid grey;
+  padding: 5%;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.interview-type-p{
+  font-size: smaller;
+  text-align: justify;
+}
+.resume-img{
+    background:linear-gradient(rgba(255, 217, 0, 0.3),rgba(255, 217, 0, 0.3)),url(../images/resume-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10%;
+}
+.resume-img-h5{
+    padding-top: 5%;
+    color: white;
+}
+.resume-img-a{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    margin-left: 43%;
+}
+.work-img{
+    width: 20%;
+    margin:50%;
+    margin-bottom: 5%;
+    margin-top: 15%;
+    margin-left: 39%;
+}
+.card-1{
+    height: 100%;
+    padding-bottom: 15%;
+ }
+ .choose-img{
+    width: 25%;
+    margin: 5%;
+    margin-left: 35%;
+ }
+ .card-2{
+   margin-top: 5%;
+ }
+ .about-interview{
+  padding: 10px;
+ }
+ #interview-types{
+margin-bottom: 20px;
+ }
+ .collapse-link:hover{
+  color: #b51b3a !important;
+  font-weight: 700;
+  letter-spacing: 2px;
+ }
+ #paragraph{
+  margin-top: 25px;
+ }
+ h1,h2,h3,h4,h5,h6{
+    color: black !important;
+ }
+ .collapse-3-li,.div-para,.div-para-1,.colapse-p{
+  color: grey !important;
+ }
+ .resume-collapse-a{
+    color: rgb(0, 0, 0);
+    font-size: large;
+    padding: 5px;
+    text-align: left!important;
+    
+ }
+ .resume-collapse-a:hover{
+   color: #1b61a6;
+   letter-spacing: 2px;
+   font-weight: 700;
+ }
+ .resume-collapse-p{
+    margin-top: 3%;
+ }
+ .resume-bg{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding:5%;
+  /* box-shadow:25px 20px 24px -28px black; */
+}
+.resume-h2{
+  text-align: left !important;
+  color: rgb(82, 79, 79) !important;
+}
+.work-card-para{
+  margin-left: 5%;
+
+}
+.collapse-h2{
+  text-align: left !important;
+  color: rgb(82, 79, 79) !important;
+}
+.job-winning-div{
+  color: black;
+  padding: 5%;
+}
+.job-winning-div{
+  text-align: center;
+}
+.job-winning-img{
+  width: 25%;
+}
+ .div-para,.div-para-1{
+   font-size: medium;
+   border: none !important;
+ }
+ .div-para-1{
+   margin-bottom: 2%;
+ }
+ .resume-row{
+   margin: 1%;
+   margin-bottom: 5%;
+ }
+ .abord-living-card{
+  border: 1px solid #1b61a6;
+  border-radius: 10px;
+  margin-left: 1%;
+  width: 32%;
+}
+.abord-living-card:hover{
+  margin-top:2% ;
+}
+.aboard-fun{
+  background-color: #b51b3a;
+  color: white !important;
+  background-image: linear-gradient(#b51b3a69,#b51b3a6e),url(../images/learning-abroad-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboard-fun-div{
+  padding: 5%;
+  margin-top: 3%;
+}
+.internship-read-bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(253, 248, 201, 0.8),rgba(253, 248, 201, 0.8)),url(../images/intership-bg-read.jpg);
+ }
+ .intership-read-col{
+  border-radius: 10px;
+  border: 1px dashed #1b61a6;
+  background-color: rgba(255, 255, 255, 0.411);
+  padding: 6%;
+  margin-left: 1% ;
+  height: 100%;
+ }
+ .intership-read-row{
+  padding-top: 10%;
+  padding-bottom: 10%;
+ }
+ .btn-readmore{
+  background-color: #b51b3a;
+  color: white;
+  font-size:x-small;
+  padding: 2%;
+  border-radius: 2px;
+ }
+ .btn-readmore:hover{
+  border: 1px solid #b51b3a;
+  color:#b51b3a;
+  font-size:x-small;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: center;
+ }
+ .readmore-card{
+  border: none !important;
+  font-size:smaller;
+  margin: 0px !important;
+  padding-left: 0px !important;
+  background-color: transparent;
+  color: #000;
+ }
+ .hide-readmore{
+  opacity: 0%;
+ }
+ .hide-readmore:hover{
+  opacity: 100%;
+ }
+ .life-intern-col-1,.life-intern-col-2,.life-intern-col-3,.life-intern-col-4,.life-intern-col-5{
+    border-radius: 10px;
+    border: 1px solid #b51b3a;
+    padding: 5%;
+    margin-top: 3%;
+ }
+ .life-intern-col-1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(253, 248, 201, 0.8),rgba(253, 248, 201, 0.8)),url(../images/life-intern-project.png);
+ 
+ }
+ .life-intern-col-2{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(253, 248, 201, 0.8),rgba(253, 248, 201, 0.8)),url(../images/life-intern-mentor.jpg);
+ 
+ }
+ .life-intern-col-3{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(253, 248, 201, 0.8),rgba(253, 248, 201, 0.8)),url(../images/life-intern-training.jpg);
+ 
+ }
+ .life-intern-col-4{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(253, 248, 201, 0.8),rgba(253, 248, 201, 0.8)),url(../images/intership-intern-technical.png);
+ 
+ }
+ .life-intern-col-5{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(253, 248, 201, 0.8),rgba(253, 248, 201, 0.8)),url(../images/intership-intern-business.jpg);
+ 
+ }
+ .readmore-para{
+  font-size: small;
+  color: #000;
+ }
+ .collapse-div{
+  height: 50%;
+ }
+ .grab-bg{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ background-image: linear-gradient(rgba(31, 31, 31, 0.5),rgba(172, 172, 172, 0.5)),url(../images/intership-p-bg.png);
+ 
+ }
+ .intership-certificate{
+  margin: auto;
+ }
+ .interview-h2{
+  font-size:177% !important;
+ }
+ .card{
+  background-color: #58585850;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+ }
+ .collapse-link{
+  text-decoration: none;
+  color: #000;
+ }
+
+ .interview-tips-bg{
+  margin-top: 5%;
+  background-position-y:25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(201, 228, 253, 0.5),rgba(201, 243, 253, 0.5)),url(../images/call-centre-bg.jpg);
+ }
+ .interview-content-div{
+  padding-top: 5%;
+  padding-bottom: 5%;
+ }
+ .collapse-basic{
+  color:  !important;
+  padding: 10px;
+  margin-top: 20px;
+  border:2px solid ;
+  border-radius: 10px;
+ }
+ .collapse-basic:hover{
+  background-color: ;
+  color: #fff !important;
+ }
+ .call-centre-bg{
+  margin-top: 5%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-color: #ffffff;
+ background-image: linear-gradient(rgba(201, 228, 253, 0.5),rgba(201, 243, 253, 0.5)),url(../images/call-centre-bg.jpg);
+ }
+ .call-center-div{
+  padding: 10%;
+ }
+ .luck-bg-div{
+  padding: 10%;
+ }
+ .luck-bg{
+  margin-top: 5%;
+  background-position:25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgba(201, 228, 253, 0.5),rgba(201, 243, 253, 0.5)),url(../images/call-centre-bg.jpg);
+ }
+ #readmore-1,#collapseOne{
+  display: none;
+ }
+ #readmore,#readmore-1{
+  color: #1b61a6;
+ }
+
+ /*popup  ----------------*/
+
+ 
+ .ft-modal {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+        z-index: 9999;	
+        overflow: auto;
+	position: fixed;
+        visibility: hidden;
+	margin-top: -250px;
+	background: rgba(0,0,0,.8);
+	
+	transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-webkit-transition: all .3s ease-in-out;
+}
+ 
+.ft-modal:target {
+	opacity: 1;
+	margin-top: 0px;
+	visibility: visible;	
+}
+ 
+.ft-modal-content {
+	width: 70%;
+    padding: 25px;
+	background: #FFF;
+	max-width: 600px;
+    margin: 378px auto;
+	position: relative;
+	border-radius: 8px;
+	box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+.ft-modal-footer{
+    text-align: end;
+}

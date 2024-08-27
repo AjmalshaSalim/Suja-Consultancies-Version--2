@@ -1,0 +1,36 @@
+.resume-bg{
+    border: 1px solid #00000015 !important;
+    border-radius: 10px;
+    padding:5%;
+}
+.resume-tips{
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.resume-h2{
+    text-align: left !important;
+    color: rgb(82, 79, 79) !important;
+}
+.work-card-para{
+    margin-left: 5%;
+ 
+}
+.collapse-h2{
+    text-align: left !important;
+    color: rgb(82, 79, 79) !important;
+  }
+  .job-winning-div{
+    color: black;
+    padding: 5%;
+  }
+  .job-winning-div{
+    text-align: center;
+  }
+  .job-winning-img{
+    width: 25%;
+  }
+  .resume-built-tips{
+    background-image: linear-gradient(rgba(201, 228, 253, 0.5),rgba(201, 243, 253, 0.5)),url(../images/call-centre-bg.jpg);
+    border-radius: 10px;
+    padding-top: 10px;
+  }

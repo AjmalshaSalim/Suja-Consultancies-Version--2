@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suja Consultancies | Shortlist </title>
+  <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.ico' %}">
+  <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
+  <link rel="stylesheet" href="https://unpkg.com/datepicker/dist/datepicker.min.css">
+<script src="https://unpkg.com/datepicker"></script>
+  <!-- SweetAlert2 -->
+  <link rel="stylesheet" href="{% static 'plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css' %}">
+  <!-- Toastr -->
+  <link rel="stylesheet" href="{% static 'plugins/toastr/toastr.min.css' %}">
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="{% static 'plugins/fontawesome-free/css/all.min.css' %}">
+  <!-- Ionicons -->
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Tempusdominus Bootstrap 4 -->
+  <link rel="stylesheet" href="{% static 'plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css' %}%">
+  <!-- iCheck -->
+  <link rel="stylesheet" href="{% static 'plugins/icheck-bootstrap/icheck-bootstrap.min.css' %}">
+  <!-- JQVMap -->
+  <link rel="stylesheet" href="{% static 'plugins/jqvmap/jqvmap.min.css' %}">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="{% static 'dist/css/adminlte.min.css' %}">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="{% static 'plugins/overlayScrollbars/css/OverlayScrollbars.min.css' %}">
+  <!-- Daterange picker -->
+  <link rel="stylesheet" href="{% static 'plugins/daterangepicker/daterangepicker.css' %}">
+  <!-- summernote -->
+  <link rel="stylesheet" href="{% static 'plugins/summernote/summernote-bs4.min.css' %}">
+  <link rel="icon" type="image/x-icon" href="{% static 'dist/img/favicon.png' %}">
+  <link rel="stylesheet" href="{% static 'dist/css/style.css' %}">
+  <style>
+    .popup {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.4);
+    }
+
+    .popup-content {
+      background-color: #fefefe;
+      margin: 5% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+      margin-left:23%;
+    }
+
+    .close {
+      color: #aaaaaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #000;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body class="hold-transition sidebar-mini layout-fixed">
+<div class="wrapper">
+
+  <!-- Preloader -->
+  <div class="preloader flex-column justify-content-center align-items-center">
+    <img  src="{% static 'assets/images/suja-logo.png' %}" alt="AdminLTELogo"  width="30%">
+  </div>
+
+  <!-- Navbar -->
+  <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+      </li>
+      <!-- <li class="nav-item d-none d-sm-inline-block">
+        <a href="{% url 'ageis_app:index' %}" class="nav-link">Home</a>
+      </li>
+     -->
+    </ul>
+
+    <!-- Right navbar links -->
+  </nav>
+
+
+  <!-- /.navbar -->
+
+  <!-- Main Sidebar Container -->
+  <aside class="main-sidebar sidebar-light-primary elevation-4">
+    <!-- Brand Logo -->
+    <a href="{% url 'ageis_app:dashboard' %}"  class="brand-link">
+      <img src="{% static 'assets/images/suja-long.png' %}" alt="AdminLTE Logo" class="brand-image">
+     
+    </a>
+
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <!-- Add icons to the links using the .nav-icon class
+             with font-awesome or any other icon font library -->
+             <li class="nav-item">
+              <a href="{% url 'ageis_app:user_management' %}" class="nav-link">
+                  <span><img src="{% static 'dist/img/icon/user.gif' %}" class="nav-icon"></span>
+                <p>
+                  Users
+                </p>
+              </a>
+            </li>
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:dashboard' %}"  class="nav-link">
+             <span><img src="{% static 'dist/img/icon/job-seeking.gif' %}" class="nav-icon"></span>
+            <p>
+            Jobs
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a href="{% url 'ageis_app:applied_jobs' %}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Job Applicants</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'ageis_app:jobs' %}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p> Add Jobs</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'ageis_app:job_categories' %}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Add Job categories</p>
+                </a>
+            </li>
+            <li class="nav-item">
+              <a href="{% url 'ageis_app:job_types' %}" class="nav-link">
+                <i class="far fa-circle nav-icon"></i>
+                <p>Add Job Types</p>
+                </a>
+            </li>
+            
+           
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:place_management' %}" class="nav-link ">
+            <span><img src="{% static 'dist/img/icon/earth.gif' %}" class="nav-icon"></span>
+            <p>
+              Places
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:client' %}" class="nav-link ">
+            <span><img src="{% static 'dist/img/icon/social-care.gif' %}" class="nav-icon"></span>
+            <p>
+              Clients
+            </p>
+          </a>
+          
+        </li>
+
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:testimonial' %}" class="nav-link">
+            <span><img src="{% static 'dist/img/icon/stars.gif' %}" class="nav-icon"></span>
+            <p>
+              Testimonials
+            </p>
+          </a>
+          
+        </li>
+
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:about_us_backend' %}" class="nav-link">
+            <span><img src="{% static 'dist/img/icon/share.gif' %}" class="nav-icon"></span>
+            <p>
+              About Us
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:shortlisted_jobs'%}" class="nav-link">
+            <span><img src="{% static 'dist/img/icon/absence.gif' %}" class="nav-icon"></span>
+            <p>
+              Shortlist
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="{% url 'ageis_app:filter_results'%}" class="nav-link">
+            <span><img src="{% static 'dist/img/icon/complete.gif' %}" class="nav-icon"></span>
+            <p>Completed</p>
+            </a>
+        </li>
+        
+    
+            
+        
+    
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+          
+          </div><!-- /.col -->
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Shortlist</li>
+            </ol>
+          </div><!-- /.col -->
+        </div><!-- /.row -->
+      </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+
+    <div style=" background-color: white; margin-left: 20px; margin-right: 20px; padding-top: 20px; padding-bottom: 20px;">
+      <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12" style="padding-bottom: 20px;">
+        <h3 class="card-title" style="margin-left: 6%;">Shortlist</h3>
+    </div>
+        <div class="container mt-4">
+          <form method="get" action="{% url 'ageis_app:shortlisted_jobs' %}" class="mb-4">
+            <div class="form-group row">
+              <div class="col-md-6">
+                <select name="client" class="form-control">
+                  <option value="">Select Client</option>
+                  {% for client in clients %}
+                    <option value="{{ client.id }}" {% if client.id == selected_client_id %}selected{% endif %}>
+                      {{ client.company_name }}
+                    </option>
+                  {% endfor %}
+                </select>
+              </div>
+              <div class="col-md-6">
+                <select name="job" class="form-control">
+                  <option value="">Select Job</option>
+                  {% for job in jobs %}
+                    <option value="{{ job.id }}" {% if job.id == selected_job_id %}selected{% endif %}>
+                      {{ job.job_title }}
+                    </option>
+                  {% endfor %}
+                </select>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Filter</button>
+          </form>
+          <input type="text" id="searchInput" class="form-control mb-3" placeholder="Search by name...">
+          <table id="searchList" class="table table-bordered table-striped" >
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Job Title</th>
+                <th>Job Number</th>
+                <th>Resume</th>
+                <th>Company</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+              {% for applied_job in applied_jobs %}
+              <tr>
+                <td>{{ applied_job.applied_user.user.first_name }} {{ applied_job.applied_user.user.last_name }}</td>
+                <td>{{ applied_job.applied_user.user.email }}</td>
+                <td>{{ applied_job.applied_user.phone }}</td>
+                <td>{{ applied_job.applied_job.job_title }}</td>
+                <td>Job Number {{ applied_job.applied_job.id }}</td>
+                <td><a href="{{ applied_job.applied_user.cv.url }}" download class="flex-column" >Download Resume</a></td>
+                <td>{{ applied_job.applied_job.company.company_name }}</td>
+                <td>
+                  {% if not applied_job.is_invited %}
+                  <button onclick="openPopup('{{ applied_job.id }}')" class="btn btn-success">Schedule Interview</button>
+                  {% else %}
+                  <button disabled class="btn btn-secondary mb-2 p-1">Invitation Sent</button>
+                  {% if applied_job.result == 'default' %}
+                  <button onclick="updateResult('{{ applied_job.id }}', 'selected')" class="btn btn-success">Interview is over and Selected</button>
+                  <button onclick="updateResult('{{ applied_job.id }}', 'rejected')" class="btn btn-danger">Interview is over and Rejected</button>
+                  <button onclick="updateResult('{{ applied_job.id }}', 'on_hold')" class="btn btn-warning">Hold</button>
+                  {% elif applied_job.result == 'selected' %}
+                  <button disabled class="btn btn-success">Selected</button>
+                  <button type="button" class="btn btn-primary" id="sendOfferLetterBtn_{{ applied_job.id }}">Send Offer Letter</button>
+                  {% elif applied_job.result == 'rejected' %}
+                  <button disabled class="btn btn-danger">Rejected</button>
+                  {% elif applied_job.result == 'on_hold' %}
+                  <button disabled class="btn btn-success mb-2 p-1">Interview is Over</button>
+                  <button disabled class="btn btn-danger mb-2 p-1">On Hold</button>
+                  {% endif %}
+                  {% endif %}
+                </td>
+              </tr>
+              {% empty %}
+              <tr>
+                <td colspan="8" class="text-center">No data found.</td>
+              </tr>
+              {% endfor %}
+            </tbody>
+          </table>
+          
+          
+        </div>
+        
+        <div id="popup" class="popup">
+          <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2 class="mb-4">Schedule Interview</h2>
+            <form id="scheduleForm" method="post" action="{% url 'ageis_app:schedule_interview' %}" class="mb-4">
+              {% csrf_token %}
+              <input type="hidden" id="applied_job_id" name="applied_job_id">
+              <div class="form-group">
+                <label for="subject">Body:</label>
+                <input type="text" id="subject" name="subject" value="Please confirm your availability for this interview by replying to this email. If the provided time slot is not suitable, let us know, and we will do our best to accommodate you." class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="date">Date:</label>
+                <input type="text" id="date" name="date" value="01-01-2024" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="time">Time:</label>
+                <input type="text" id="time" name="time" value="12:00 pm" class="form-control">
+              </div>
+              <button type="submit" class="btn btn-primary">Send</button>
+            </form>
+          </div>
+        </div>
+        
+        <div id="offerLetterPopup" class="popup">
+          <div class="popup-content">
+            <span class="close" onclick="closeOfferLetterPopup()">&times;</span>
+            <h2 class="mb-4">Send Offer Letter</h2>
+            <form id="offerLetterForm" onsubmit="sendOfferLetter('{{ applied_job_id }}'); return false;" class="mb-4" enctype="multipart/form-data">
+              {% csrf_token %}
+              <input type="hidden" id="applied_job_id" name="applied_job_id">
+              <div class="form-group">
+                <label for="offer_letter_file">Offer Letter PDF:</label>
+                <input type="file" id="offer_letter_file" name="offer_letter_file" class="form-control-file">
+              </div>
+              <div class="form-group">
+                <label for="email_subject">Email Subject:</label>
+                <input type="text" id="email_subject" name="email_subject" value="Offer Letter" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email_body">Email Body:</label>
+                <textarea id="email_body" name="email_body" class="form-control" rows="5">Dear Candidate,\n\nWe are pleased to offer you the position...\n\nSincerely,\nThe Recruitment Team</textarea>
+              </div>
+              <button type="submit" onclick="sendOfferLetter('{{ applied_job_id }}')" class="btn btn-primary" id="sendOfferLetterBtn">Send Offer Letter</button>
+              <button id="openPopupButton" data-job-id="{{ applied_job_id }}">Send Offer Letter</button>
+            </form>
+          </div>
+        </div>
+        </div>
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="main-footer">
+    <p>Copyright © 2024<a href="https://trivlogic.com/" class="copyright-text-a"
+      target="_blank">Trivlogic Pvt Ltd.</a> All rights reserved.</p>
+    
+  </footer>
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar control-sidebar-dark">
+    <!-- Control sidebar content goes here -->
+  </aside>
+  <!-- /.control-sidebar -->
+</div>
+<!-- ./wrapper -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  $(document).ready(function() {
+    // Disable district and city fields initially
+    $('#id_state').prop('disabled', true);
+    $('#id_district').prop('disabled', true);
+
+    // Enable district field when state is selected
+    $('#id_country').change(function() {
+      const url = $("#LeadAddForm").attr("data-states-url");
+      const countryId = $(this).val();
+
+      if (countryId) {
+        $('#id_state').prop('disabled', false);
+        $.ajax({
+          url: url,
+          data: {
+            'country_id': countryId
+          },
+          success: function(data) {
+            $('#id_state').html(data);
+            $('#id_district').prop('disabled', true);
+          }
+        });
+      } else {
+        // Disable district and city fields if state is not selected
+        $('#id_state').prop('disabled', true);
+        $('#id_district').prop('disabled', true);
+      }
+    });
+
+    // Enable city field when district is selected
+    $('#id_state').change(function() {
+      const url = $("#LeadAddForm").attr("data-district-url");
+      const districtId = $(this).val();
+
+      if (districtId) {
+        $('#id_district').prop('disabled', false);
+        $.ajax({
+          url: url,
+          data: {
+            'country_id': districtId
+          },
+          success: function(data) {
+            $('#id_district').html(data);
+          }
+        });
+      } else {
+        // Disable city field if district is not selected
+        $('#id_district').prop('disabled', true);
+      }
+    });
+  });
+  </script>
+
+<script>
+    function updateResult(jobId, result) {
+      $.ajax({
+        url: `/update-interview-result/${jobId}/`,
+        type: 'POST',
+        data: {
+          'result': result,
+          'csrfmiddlewaretoken': '{{ csrf_token }}'
+        },
+        success: function(response) {
+          // Reload the page or update UI as needed
+          location.reload();
+        },
+        error: function(xhr, status, error) {
+          console.error(error);
+        }
+      });
+    }
+
+    function openPopup(jobId) {
+      document.getElementById('applied_job_id').value = jobId;
+      document.getElementById('popup').style.display = 'block';
+    }
+
+    function closePopup() {
+      document.getElementById('popup').style.display = 'none';
+    }
+let x= 0
+    function openOfferLetterPopup(jobId) {
+      console.log(jobId)
+      x=jobId
+      document.getElementById('applied_job_id').value = jobId;
+      document.getElementById('offerLetterPopup').style.display = 'block';
+    }
+
+    function closeOfferLetterPopup() {
+      document.getElementById('offerLetterPopup').style.display = 'none';
+    }
+
+    $(document).ready(function() {
+      // Attach event listener to all "Send Offer Letter" buttons
+      $('[id^=sendOfferLetterBtn]').click(function() {
+        var jobId = $(this).attr('id').split('_')[1];
+        openOfferLetterPopup(jobId);
+      });
+    });
+
+    function sendOfferLetter(jobId) {
+      // Retrieve the jobId from the function parameter
+      let x = x
+      var form = $('#offerLetterForm')[0];
+      var formData = new FormData(form);
+      console.log(x,"xxxxxxxxxxxxxxxxxxxxxxxxxxxxx")
+      formData.append('applied_job_id',x );
+      console.log('formData', formData);
+      $.ajax({
+          url: `/send-offer-letter/`,
+          type: 'POST',
+          data: formData,
+          processData: false,
+          contentType: false,
+          success: function (response) {
+              if (response.success) {
+                  alert('Offer letter sent successfully.');
+                  location.reload();
+              } else {
+                  alert('Failed to send offer letter.');
+              }
+          },
+          error: function (xhr, status, error) {
+              console.error(xhr.responseText);
+              alert('Error sending offer letter.');
+          }
+      });
+  }
+
+    $(function () {
+    $("#example1").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": [ "excel", "pdf", "print","docx"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+    });
+  });
+</script>
+
+
+{% for message in messages %}
+  {% if message.tags == 'success' %}
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script>
+  var m="{{message}}";
+  swal("{{message}}",'','success')
+  {% comment %} swal("Perfect!", m, "success") {% endcomment %}
+  </script>
+  {% else %}
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script>
+  var m="{{message}}";
+  swal("{{message}}",'','error')
+  {% comment %} swal("Perfect!", m, "success") {% endcomment %}
+  </script>
+  {% endif %}
+  {% endfor %}
+<script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="{% static 'plugins/jquery-ui/jquery-ui.min.js' %}"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="{% static 'plugins/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+<!-- ChartJS -->
+<script src="{% static 'plugins/chart.js/Chart.min.js' %}"></script>
+<!-- Sparkline -->
+<script src="{% static 'plugins/sparklines/sparkline.js' %}"></script>
+<!-- JQVMap -->
+<script src="{% static 'plugins/jqvmap/jquery.vmap.min.js' %}"></script>
+<script src="{% static 'plugins/jqvmap/maps/jquery.vmap.usa.js' %}"></script>
+<!-- jQuery Knob Chart -->
+<script src="{% static 'plugins/jquery-knob/jquery.knob.min.js' %}"></script>
+<!-- daterangepicker -->
+<script src="{% static 'plugins/moment/moment.min.js' %}"></script>
+<script src="{% static 'plugins/daterangepicker/daterangepicker.js' %}"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="{% static 'plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js' %}"></script>
+<!-- Summernote -->
+<script src="{% static 'plugins/summernote/summernote-bs4.min.js' %}"></script>
+<!-- overlayScrollbars -->
+<script src="{% static 'plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js' %}"></script>
+<!-- AdminLTE App -->
+<script src="{% static 'dist/js/adminlte.js' %}"></script>
+<!-- AdminLTE for demo purposes -->
+
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="{% static 'dist/js/pages/dashboard.js' %}"></script>
+<!-- Page specific script -->
+<script>
+  $(function () {
+    $("#example1").DataTable({
+      "responsive": true, "lengthChange": false, "autoWidth": false,
+      "buttons": [ "excel", "pdf", "print","docx"]
+    }).buttons().container().appendTo('#example1_wrapper .col-md-6:eq(0)');
+    $('#example2').DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+      "responsive": true,
+    });
+  });
+</script>
+<script>
+  document.addEventListener("change", function (event) {
+  if (event.target.classList.contains("uploadProfileInput")) {
+    var triggerInput = event.target;
+    var currentImg = triggerInput.closest(".pic-holder").querySelector(".pic")
+      .src;
+    var holder = triggerInput.closest(".pic-holder");
+    var wrapper = triggerInput.closest(".profile-pic-wrapper");
+
+    var alerts = wrapper.querySelectorAll('[role="alert"]');
+    alerts.forEach(function (alert) {
+      alert.remove();
+    });
+
+    triggerInput.blur();
+    var files = triggerInput.files || [];
+    if (!files.length || !window.FileReader) {
+      return;
+    }
+
+    if (/^image/.test(files[0].type)) {
+      var reader = new FileReader();
+      reader.readAsDataURL(files[0]);
+
+      reader.onloadend = function () {
+        holder.classList.add("uploadInProgress");
+        holder.querySelector(".pic").src = this.result;
+
+        var loader = document.createElement("div");
+        loader.classList.add("upload-loader");
+        loader.innerHTML =
+          '<div class="spinner-border text-primary" role="status"><span class="sr-only">Loading...</span></div>';
+        holder.appendChild(loader);
+
+        setTimeout(function () {
+          holder.classList.remove("uploadInProgress");
+          loader.remove();
+
+          var random = Math.random();
+          if (random < 0.9) {
+            wrapper.innerHTML +=
+              '<div class="snackbar show" role="alert"><i class="fa fa-check-circle text-success"></i> Profile image updated successfully</div>';
+            triggerInput.value = "";
+            setTimeout(function () {
+              wrapper.querySelector('[role="alert"]').remove();
+            }, 3000);
+          } else {
+            holder.querySelector(".pic").src = currentImg;
+            wrapper.innerHTML +=
+              '<div class="snackbar show" role="alert"><i class="fa fa-times-circle text-danger"></i> There is an error while uploading! Please try again later.</div>';
+            triggerInput.value = "";
+            setTimeout(function () {
+              wrapper.querySelector('[role="alert"]').remove();
+            }, 3000);
+          }
+        }, 1500);
+      };
+    } else {
+      wrapper.innerHTML +=
+        '<div class="alert alert-danger d-inline-block p-2 small" role="alert">Please choose a valid image.</div>';
+      setTimeout(function () {
+        var invalidAlert = wrapper.querySelector('[role="alert"]');
+        if (invalidAlert) {
+          invalidAlert.remove();
+        }
+      }, 3000);
+    }
+  }
+});
+document.addEventListener("change", function (event) {
+  if (event.target.classList.contains("hello-4")) {
+    var triggerInput = event.target;
+    var currentImg = triggerInput.closest(".hello-2").querySelector(".hello-3")
+      .src;
+    var holder = triggerInput.closest(".hello-2");
+    var wrapper = triggerInput.closest(".hello-1");
+
+    var alerts = wrapper.querySelectorAll('[role="alert"]');
+    alerts.forEach(function (alert) {
+      alert.remove();
+    });
+
+    triggerInput.blur();
+    var files = triggerInput.files || [];
+    if (!files.length || !window.FileReader) {
+      return;
+    }
+
+    if (/^image/.test(files[0].type)) {
+      var reader = new FileReader();
+      reader.readAsDataURL(files[0]);
+
+      reader.onloadend = function () {
+        holder.classList.add("uploadInProgress");
+        holder.querySelector(".hello-3").src = this.result;
+
+        var loader = document.createElement("div");
+        loader.classList.add("upload-loader");
+        loader.innerHTML =
+          '<div class="spinner-border text-primary" role="status"><span class="sr-only">Loading...</span></div>';
+        holder.appendChild(loader);
+
+        setTimeout(function () {
+          holder.classList.remove("uploadInProgress");
+          loader.remove();
+
+          var random = Math.random();
+          if (random < 0.9) {
+            wrapper.innerHTML +=
+              '<div class="snackbar show" role="alert"><i class="fa fa-check-circle text-success"></i> Profile image updated successfully</div>';
+            triggerInput.value = "";
+            setTimeout(function () {
+              wrapper.querySelector('[role="alert"]').remove();
+            }, 3000);
+          } else {
+            holder.querySelector(".hello-3").src = currentImg;
+            wrapper.innerHTML +=
+              '<div class="snackbar show" role="alert"><i class="fa fa-times-circle text-danger"></i> There is an error while uploading! Please try again later.</div>';
+            triggerInput.value = "";
+            setTimeout(function () {
+              wrapper.querySelector('[role="alert"]').remove();
+            }, 3000);
+          }
+        }, 1500);
+      };
+    } else {
+      wrapper.innerHTML +=
+        '<div class="alert alert-danger d-inline-block p-2 small" role="alert">Please choose a valid image.</div>';
+      setTimeout(function () {
+        var invalidAlert = wrapper.querySelector('[role="alert"]');
+        if (invalidAlert) {
+          invalidAlert.remove();
+        }
+      }, 3000);
+    }
+  }
+});
+
+
+</script>
+<script>
+  function showDatePicker() {
+      var datePicker = document.getElementById("EnterENDDate");
+      datePicker.type = "date";
+      datePicker.focus();
+  }
+  </script>
+<!-- <script src="{% static 'dist/js/dependdrop.js' %}"></script> -->
+<script src="{% static 'plugins/datatables/jquery.dataTables.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-bs4/js/dataTables.bootstrap4.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-responsive/js/dataTables.responsive.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-responsive/js/responsive.bootstrap4.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-buttons/js/dataTables.buttons.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-buttons/js/buttons.bootstrap4.min.js' %}"></script>
+<script src="{% static 'plugins/jszip/jszip.min.js' %}"></script>
+<script src="{% static 'plugins/pdfmake/pdfmake.min.js' %}"></script>
+<script src="{% static 'plugins/pdfmake/vfs_fonts.js' %}%"></script>
+<script src="{% static 'plugins/datatables-buttons/js/buttons.html5.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-buttons/js/buttons.print.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-buttons/js/buttons.colVis.min.js' %}"></script>
+<script src="{% static 'plugins/datatables-buttons/js/dataTables.buttons.min.js' %}"></script>
+</body>
+</html>

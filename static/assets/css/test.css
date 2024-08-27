@@ -1,0 +1,46 @@
+/* .client-card{
+  width: 25vw;
+  height: 25vh;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 3%;
+}
+h2{
+  text-align: center;
+}
+.client-div{
+  overflow: scroll;
+}
+.companies-img{
+  width: 20%;
+  margin: auto;
+  margin-top: 15%;
+}
+.companies-h5,.companies-p,.companies-a{
+  text-align: center;
+  margin-top: 5%;
+}
+.companies-a{
+  color: red;
+  margin-bottom: 5%;
+}
+.companies-a:hover{
+  color: red;
+} */
+.text-1,.text-2,.text-3,.text-4,.text-5{
+ font-size: xx-large;
+ margin: 5%;
+}
+/* .text-1{
+  animation-duration: 30s;
+  margin-left: -18%;
+  animation-iteration-count: infinite;
+  animation-name: hello;
+}
+/* @keyframes hello{
+  0%{display: none;margin-left: -18%;}
+  25%{display: block;margin-left: 23%;}
+  50%{display: none;margin-left: 0%;}
+  75%{display: none;margin-left: 0%;}
+  100%{display: none;margin-left: 0%;}
+} */ 

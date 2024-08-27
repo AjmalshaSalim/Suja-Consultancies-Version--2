@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Acquisition</title>
+</head>
+<body>
+    <h1>Client Acquisition</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="source_name">Client Acquisition Source:</label><br>
+        <input type="text" id="source_name" name="source_name" required><br><br>
+        <button type="submit">Add Source</button>
+    </form>
+    <hr>
+    <h2>Existing Sources</h2>
+    <ul>
+        {% for source in sources %}
+        <li>{{ source.name }}</li>
+        {% empty %}
+        <li>No sources found.</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

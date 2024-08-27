@@ -1,0 +1,41 @@
+version: '3'
+
+services:
+  db:
+    image: postgres:14.0
+    restart: always 
+    environment:
+      - POSTGRES_USER=ageisUser
+      - POSTGRES_PASSWORD=ageisPassword 
+    volumes:
+      - ageis_db_data:/var/lib/postgresql/data
+    networks:
+      - ageis_backend_tier
+
+  ageis:
+    restart: always
+    build: .
+    depends_on: 
+      - db
+    env_file: .env
+    command: python manage.py runserver 0.0.0.0:8007
+    links:
+      - db:postgres
+    volumes:
+      - .:/app
+    ports:
+      - "8007:8007"
+    expose:
+      - "8009"
+    networks:
+      - ageis_backend_tier
+
+volumes:
+  ageis_db_data:
+    driver: local 
+  static_volume:
+    driver: local
+
+networks:
+  ageis_backend_tier: 
+    driver: bridge

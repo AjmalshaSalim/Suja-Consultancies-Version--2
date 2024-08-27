@@ -1,0 +1,1389 @@
+<!doctype html>
+{% load static %}
+<html lang="zxx">
+
+<!-- Mirrored from templates.hibootstrap.com/jovie/default/index-two.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Oct 2023 09:44:59 GMT -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/boxicon.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/fonts/flaticon/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/nice-select.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/home.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive-2.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive-2.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bg-img.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/swiper/swiper-bundle.min.css' %}"> 
+
+   
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <title>Suja Consultancies | Home</title>
+
+    <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.ico' %}">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+
+   
+    <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    
+    <style>
+
+body, p, h2, h3, a, span, p, button, ::placeholder{
+    /* font-family: "Josefin Sans", sans-serif !important; */
+    /* font-family: "Comfortaa", sans-serif !important; */
+    font-family: "Nunito Sans", sans-serif;
+}
+.btn-special{
+  background:#1b61a6 !important;
+  color: #fff !important;
+}
+.btn-special:hover{
+    background:#3186db !important; 
+}
+h1{
+    /* font-family: "Paytone One", sans-serif !important; */
+    text-transform: uppercase;
+    font-family: "Anton", sans-serif !important;
+    
+}
+.custom-carousel-container{
+    width: 100%;
+}
+
+
+.custom-carousel {
+    display: flex;
+    animation: slide 10s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+        /* Add your custom styles here */
+        .carousel-container-testimonial {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .carousel-item-testimonial {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ddd;
+            margin-left: 1%;
+            height: 60vh;
+        }
+
+        .carosel-img-div {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            text-align: center;
+            margin-bottom: 2%;
+            margin-top: 5%;
+
+        }
+
+        .carosel-img {
+            width: 100px;
+            aspect-ratio: 2/1;
+            margin: auto;
+        }
+
+        .testimonial-img-div {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            text-align: center;
+            margin-bottom: 2%;
+            margin-top: 5%;
+
+        }
+
+        .testimonial-img {
+            width: 150px;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+        }
+
+        .testimonial-review-div {
+            background-color: rgb(212, 208, 208);
+            border-radius: 10px;
+            padding: 5%;
+            width: 50%;
+            margin: auto;
+            margin-bottom: 5%;
+        }
+
+        .testimonial-review {
+            font-size: smaller;
+        }
+
+        .arrow-icon {
+            font-size: 180%;
+        }
+
+        .icon-div {
+            background-color: grey;
+            border-radius: 50%;
+            height: 100%;
+            width: 200%;
+        }
+        .carousel-item {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596); /* Black with 50% opacity */
+    z-index: 1;
+}
+
+.col-div {
+    position: relative;
+    z-index: 2; /* Ensures the text is above the overlay */
+}
+
+.carosel-head {
+    color: white; /* Make sure text is visible over the dark overlay */
+}
+
+    </style>
+</head>
+
+<body>
+
+    <div class="loader-content">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="sk-circle">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="home-video-bg">
+        <video autoplay loop muted plays-inline class="back-video" id="bg-home-video">
+            <source src="{% static 'assets/bg-video/home-page.mp4' %}" type="video/mp4">
+        </video>
+    </div> -->
+
+
+
+    <nav-2>
+        <div class="full-nav">
+            <div class="container div-container">
+                <div class="nav-phn">
+                <a class="phn-a" href="tel:+91 9846825699"><i class="bi bi-telephone-outbound-fill nav-social-call"></i>+91 9846825699</a>
+                </div>
+                <div class="nav-mail-comb">
+                    <div class="nav-mail">
+                        <a class="email-a" href="mailto:info@sujaconsultancies.in"><i class="bi bi-envelope-at-fill nav-social-email"></i>info@sujaconsultancies.in</a>
+                        <!-- <p class="nav-welcome-text">Welcome to Suja Consultancies: Empowering Talent, Enhancing Companies. Step into
+                            excellence with us.</p> -->
+
+                    </div>
+                    <div class="nav-social">
+                    <ul class="nav-social-ul" type="none">
+                        <li class="nav-social-name"><a  class="nav-social-a" href="https://wa.link/sws14o"><i class="bi bi-whatsapp nav-social-whats"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-instagram nav-social-insta"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-linkedin nav-social-linked"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-facebook nav-social-face"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav-2>
+    <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-lg">
+        <div class="container">
+            <a class="navbar-brand brand-logo-a" href="/"><img class="brand-logo"
+                    src="{% static 'assets/images/suja-logo.png'  %}"></a>
+            <div class="nav-bar-align">
+
+            </div>
+            <div class="collapse navbar-collapse div-ul-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'ageis_app:index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:about_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:jobs_frontend' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:clients' %}">Clients</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="{% url 'ageis_app:contact_us' %}" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                    <form action="{% url 'ageis_app:job_search' %}" method="GET">
+                        <div class="nav-search-box" style="width: 250px; height: 40px; background: #fff; display: flex; border: 1px solid #00000024; border-radius: 5px; margin-left: 25px;">
+                            <input type="text" name="title" class="nav-search-input" placeholder="Search" style="border:none; margin-left:5px; outline:none; flex: 1;">
+                            <button type="submit" style="background:none; border:none; padding:0;">
+                                <img src="../static/assets/icons/search.png" alt="Search" style="width:20px; height:20px; margin-top:7px; margin-left:7px; margin-right: 7px; margin-bottom: 7px;">
+                            </button>
+                        </div>
+                    </form>
+                </ul>
+                <!-- <div class="chat-box" id="chat-box">
+                    <div class="chat-box-head">
+
+                        <img class="logo-chat-box-1" src="{% static 'assets/images/suja.jpg' %}">
+
+                        <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                        <div id="close-btn"><i class="bi bi-x-square chat-close"></i></div>
+                    </div>
+                    <div class="chat-box-middle">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="chat">
+                                        <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box-footer">
+                        <input type="text" class="form-control w-75" id="chat-input" placeholder="Chat with me">
+                        <div id="send-it"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+                    </div>
+                    <div>
+                    </div>
+
+
+                </div> -->
+                <a class=" btn-hello " id="chatwithus">
+                    <div class="chat-toggle-container">
+                        <img class="chat toggle-icon" src="../static/assets/icons/whatsapp.png" alt="">
+                    </div>
+                </a>
+                {% if not user.is_authenticated %}
+                <div class="nav-item" style="margin-bottom: 15px;">
+                    <a class="nav-link log-color" href="{% url 'ageis_app:login' %}"><button style="background: #3186db; padding-top: 5px; padding-bottom:5px; padding-left: 10px; padding-right: 10px; color: #fff;"> Sign In</button></a>
+                </div>
+                {% else %}
+                <div>
+                    <ul class="logout-ul" type="none">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <!-- <i class="bi bi-person-circle"></i> -->
+                                 <div style="height: 100%; width: 40px; margin-top:-13%; padding-left: 20px;">
+                                    
+                                    {% if user.profile_photo %}
+                                    <img src="{{ user.profile_photo.url }}" style="width: 40px; height:40px; bottom:15px;">
+                                   {% else %}
+                                   <img src="../static/assets/icons/profile.png" alt="" style="width: 40px; height:40px; bottom:15px;">
+                                   {% endif %}
+                                 </div>
+                                 
+                            </a>
+                            {% if user.is_authenticated and not user.is_superuser %}
+                            <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:user_profile' %}">{{user.username}}</a></li>
+                                {%if user.extenedusermodel.phone%}
+                                <li><a class="dropdown-item ">{{user.extenedusermodel.phone}}</a></li>
+                                {% endif %}
+                                <li><a class="dropdown-item ">{{user.email}}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a></li>
+                            </ul>
+                            {% else %}
+                            <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a></li>
+                            </ul>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    {% endif %}
+
+                </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-mob">
+        <div class="container">
+            <a class="navbar-brand brand-logo-a" href="/"><img class="brand-logo"
+                    src="{% static 'assets/images/suja-logo.png'  %}"></a>
+            <div class="nav-width">
+                <ul class="navbar-nav navbar-nav-1">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link btn-hello " id="chat-with-us">
+                            Chat with Us</a>
+                    </li> -->
+                    <li class="nav-item">
+                        {% if not user.is_authenticated %}
+                        <div class="nav-item" style=" text-align: right;">
+                            <a class="nav-link log-color" href="{% url 'ageis_app:login' %}" style=""> <button style="background: #3186db; padding: 10px; color: #fff;"> Sign In</button></a>
+                        </div>
+                        {% else %}
+                        <div>
+                            <ul class="logout-ul" type="none">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-person-circle"></i>
+                                    </a>
+                                    {% if user.is_authenticated and not user.is_superuser %}
+                                    <ul class="dropdown-menu dropdown-bg drop-log-bg" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item">{{user.username}}</a></li>
+                                        <li><a class="dropdown-item ">{{user.extenedusermodel.phone}}</a></li>
+                                        <li><a class="dropdown-item ">{{user.email}}</a></li>
+                                        <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a>
+                                        </li>
+                                    </ul>
+                                    {% else %}
+                                    <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a>
+                                        </li>
+                                    </ul>
+                                    {% endif %}
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                        <div>
+                            {% endif %}
+                    </li>
+                    <li class="nav-item toogle-icon-div" style="margin-top: 5px;">
+                        <a href="#" class="toogle-icon-a"><i class="bi bi-list" style="font-size: 30px;"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="chat-box" id="chat-box-mob">
+                <div class="chat-box-head">
+
+                    <img class="logo-chat-box-1" src="{% static 'assets/images/suja.jpg' %}">
+
+                    <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                    <div id="close-btn-mob"><i class="bi bi-x-square chat-close"></i></div>
+                </div>
+                <div class="chat-box-middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="chat">
+                                    <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-box-footer">
+                    <input type="text" class="form-control w-75" id="chat-input-mob" placeholder="Chat with me">
+                    <div id="send-it-mob"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+                </div>
+            </div> -->
+        </div>
+        <div class="toogle-div">
+            <div class="close-icon-div">
+                <a href="#" class="close-icon-a"><i class="bi bi-x-circle close-icon"></i></a>
+            </div>
+            <div>
+                <ul type="none">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'ageis_app:index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:about_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:jobs_frontend' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:clients' %}">Clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:resume_writing' %}">Resume Writing</a></li>
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:interviewtips' %}">Interview Tips</a></li>
+                        </ul>
+                    </li>
+                    {% comment %} <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:blogs' %}">Blog</a>
+                    </li> {% endcomment %}
+                    <li class="nav-item">
+                        <a href="{% url 'ageis_app:contact_us' %}" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    
+        <div id="carouselExampleSlidesOnly" class="carousel slide carosel-main" data-bs-ride="carousel" style="background-image: url(../static/assets/bg-video/HomeBanner.jpg);">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="overlay"></div> <!-- Black overlay -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-12 col-xl-10 col-lg-10 col-xxl-10">
+                                <div class="col-div">
+                                    <h1 class="carosel-head">Get Recruited to the <span class="font-color">Professional Companies</span> and make your dream come true</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div> 
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-12 col-xl-10 col-lg-10 col-xxl-10">
+                                <div class="col-div">
+                                    <h1 class="carosel-head">Sourcing & finding <span class="font-color">relevant & talented</span> people for your organisation is
+                                        one of the most important things these days.”</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div> 
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-12 col-xl-10 col-lg-10 col-xxl-10">
+                                <div class="col-div">
+                                    <h1 class="carosel-head">We're Your <span class="font-color">HR Partner</span> for a Brighter Tomorrow</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div> 
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-12 col-xl-10 col-lg-10 col-xxl-10">
+                                <div class="col-div">
+                                    <h1 class="carosel-head">Believe that there are no limitations, no barriers to your success you will
+                                        be empowered and you will achieve.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="carousel-item">
+                    <div class="overlay"></div> 
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-12 col-xl-10 col-lg-10 col-xxl-10">
+                                <div class="col-div">
+                                    <h1 class="carosel-head">Choose a job you love, and you will never have to work a day in your
+                                        life.</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+        <!-- Job Search -->
+
+        <!-- <div class="find-section pb-100">
+            <div class="container">
+                <form action="{% url 'ageis_app:job_search' %}" class="find-form" method="post">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="form-group">
+                                <input type="text" name="title" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Job Title or Keyword">
+                                <i class="bx bx-search-alt"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 search-form">
+                            <div class="form-group search-form">
+                                <input type="text" name='place' class="form-control formcontrol-1"
+                                    id="exampleInputEmail2" placeholder="Country,State,District">
+                                <i class="bx bx-location-plus"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <select name="category" class="category search-form">
+                                <option disabled selected data-display="Category">Category</option>
+                                {% for i in job_category %}
+                                <option value="{{i.name}}">{{i.name}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="submit" class="find-btn search-form">
+                                Find A Job
+                                <i class="bx bx-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div> -->
+
+         <!-- Job Search -->
+
+    </div>
+
+<!-- Top Jobs -->
+<section class="job-style-two pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="interest-job-h2">Top Jobs</h2>
+            <p class="mt-3">Top Listed Jobs</p>
+            <!-- <p class="interest-job-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p> -->
+        </div>
+        <div class="row">
+            {% for i in most_applied_jobs %}
+            <div class="col-md-6 col-lg-6 col-12 col-xl-3 col-xxl-3 col-xm-12">
+                <a href="{% url 'ageis_app:jobs_details' i.id %}">
+                <div class="job-card-two">
+                    <div class="row align-items-center" >
+                        <div class="" >
+                           
+                            <div class="job-info" >
+                                <div class="my-custom-outer-container">
+                                    
+                                       
+                                            {% if i.company %}
+                                            <div class="my-custom-container">
+                                                <img class="class-company" src="{{i.company.company_logo.url}}"
+                                                alt="logo">
+                                            </div>
+                                            
+                                            {% endif %}
+                                       
+                                
+                                </div>
+
+                                <h5 class="job-h3-cls">
+                                    <a class="job-h3 text-center"
+                                        href="{% url 'ageis_app:jobs_details' i.id %}">{{i.job_title}}</a>
+                                </h5>
+                                <ul>
+                                    <li class="li-job">
+                                        {% if i.company %}
+                                        {{i.company.company_name}}
+                                        {% endif %}
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-briefcase"></i>
+                                        {{i.experience}} Years experience
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-location-plus"></i>
+                                        {{i.country}}, {{i.state}}, {{i.district}}
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-calendar"></i>
+                                        {{i.job_post_date}}
+                                    </li>
+                                </ul>
+                            </div>
+                          
+                    </div>
+                        <!-- <div>
+                                <div class="theme-btn">
+                                    <a href="{% url 'ageis_app:jobs_details' i.id %}" class="default-btn">
+                                        Browse Job
+                                    </a>
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="text-center">
+            <a href="{% url 'ageis_app:most_applied_jobs' %}" class="btn btn-special resume-img-a resume-img-a-win ">More
+                Jobs</a>
+        </div>
+    </div>
+</section>
+<!-- Top jobs -->
+
+<!-- Newly Added Jobs -->
+<section class="job-style-two pt-100 pb-70">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="interest-job-h2">Newly Added Jobs</h2>
+            <p class="mt-3">Recently Added Jobs</p>
+            <!-- <p class="interest-job-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p> -->
+        </div>
+        <div class="row">
+            {% for i in jobs %}
+            <div class="col-md-6 col-lg-6 col-12 col-xl-3 col-xxl-3 col-xm-12">
+                <a href="{% url 'ageis_app:jobs_details' i.id %}">
+                <div class="job-card-two">
+                    <div class="row align-items-center" >
+                        <div class="" >
+                           
+                            <div class="job-info" >
+                                <div class="my-custom-outer-container">
+                                    
+                                       
+                                            {% if i.company %}
+                                            <div class="my-custom-container">
+                                                <img class="class-company" src="{{i.company.company_logo.url}}"
+                                                alt="logo">
+                                            </div>
+                                            
+                                            {% endif %}
+                                       
+                                
+                                </div>
+
+                                <h6 class="job-h3-cls">
+                                    <a class="job-h3 text-center"
+                                        href="{% url 'ageis_app:jobs_details' i.id %}">{{i.job_title}}</a>
+                                </h6>
+                                <ul>
+                                    <li class="li-job">
+                                        {% if i.company %}
+                                        {{i.company.company_name}}
+                                        {% endif %}
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-briefcase"></i>
+                                        {{i.experience}} Years experience
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-location-plus"></i>
+                                        {{i.country}}, {{i.state}}, {{i.district}}
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-calendar"></i>
+                                        {{i.job_post_date}}
+                                    </li>
+                                </ul>
+                            </div>
+                          
+                    </div>
+                        <!-- <div>
+                                <div class="theme-btn">
+                                    <a href="{% url 'ageis_app:jobs_details' i.id %}" class="default-btn">
+                                        Browse Job
+                                    </a>
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="text-center">
+            <a href="{% url 'ageis_app:jobs_frontend' %}" class="btn btn-special resume-img-a resume-img-a-win ">More
+                Jobs</a>
+        </div>
+    </div>
+</section>
+<!-- Newly Added Jobs -->
+
+<!-- Job categories -->
+<section class="categories-section pb-0">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2>Popular Job Categories</h2>
+        </div>
+        <div class="row">
+            {% for category_id, category in category_data.items %}
+                <div class="col-md-4 col-lg-4 col-4 col-xl-4 col-xxl-4 col-xm-4">
+                    <a href="{% url 'ageis_app:jobs_frontend_cat' category.id %}">
+                        <div class="category-card">
+                            <!-- Use the image URL from category_data -->
+                             {% if category.image_url %}
+                            <img class="popular-icon" src="{{ category.image_url }}" alt="{{ category.name }}">
+                            {% endif %}
+                            <h3 class="jobs">{{ category.name }}</h3>
+                            <p>{{ category.count }} open positions</p>
+                        </div>
+                    </a>
+                </div>
+            {% empty %}
+                <div class="col-12">
+                    <p>No job categories available.</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<!-- Job categories -->
+
+<!-- Recently Searched Jobs -->
+ {% if recent_jobs %}
+<section class="job-style-two pt-100 pb-0">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="interest-job-h2">Recently Searched Jobs</h2>
+            <p class="mt-3">Jobs You May Be Interested In</p>
+            <!-- <p class="interest-job-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et
+                dolore magna aliqua. Quis ipsum suspendisse ultrices gravida</p> -->
+        </div>
+        <div class="row">
+            {% for i in recent_jobs %}
+            <div class="col-md-6 col-lg-6 col-12 col-xl-3 col-xxl-3 col-xm-12">
+                <a href="{% url 'ageis_app:jobs_details' i.id %}">
+                <div class="job-card-two">
+                    <div class="row align-items-center" >
+                        <div class="" >
+                           
+                            <div class="job-info" >
+                                <div class="my-custom-outer-container">
+                                    
+                                       
+                                            {% if i.job.company %}
+                                            <div class="my-custom-container">
+                                                <img class="class-company" src="{{i.job.company.company_logo.url}}"
+                                                alt="logo">
+                                            </div>
+                                            
+                                            {% endif %}
+                                       
+                                
+                                </div>
+
+                                <h6 class="job-h3-cls">
+                                    <a class="job-h3 text-center"
+                                        href="{% url 'ageis_app:jobs_details' i.id %}">{{i.job.job_title}}</a>
+                                </h6>
+                                <ul>
+                                    <li class="li-job">
+                                        {% if i.job.company %}
+                                        {{i.job.company.company_name}}
+                                        {% endif %}
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-briefcase"></i>
+                                        {{i.job.experience}} Years experience
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-location-plus"></i>
+                                        {{i.job.country}}, {{i.job.state}}, {{i.job.district}}
+                                    </li>
+                                    <li class="li-job">
+                                        <i class="bx bx-calendar"></i>
+                                        {{i.job.job_post_date}}
+                                    </li>
+                                </ul>
+                            </div>
+                          
+                    </div>
+                        <!-- <div>
+                                <div class="theme-btn">
+                                    <a href="{% url 'ageis_app:jobs_details' i.id %}" class="default-btn">
+                                        Browse Job
+                                    </a>
+                                </div>
+                            </div> -->
+                    </div>
+                </div>
+            </a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <div class="text-center">
+            <a href="{% url 'ageis_app:recently_searched_jobs' %}" class="btn btn-special resume-img-a resume-img-a-win ">More
+                Jobs</a>
+        </div>
+    </div>
+</section>
+{% endif %}
+<!-- Recently Searched Jobs -->
+
+<!-- 3 Easy Steps -->
+<section class="why-choose-two pb-70" id="wct">
+        <div class="container">
+            <div class="section-title text-center" style="padding-top: 40px;">
+                <h2 class="find-job">Find Jobs with 3 easy steps</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-6">
+                    <div class="choose-card">
+                        <i class="flaticon-resume choose-card-icon"></i>
+                        <h3 class="choose-card-h3">Join Our Team</h3>
+                        <p class="choose-card-p">Search open positions that match your skills and interest. We look for
+                            passionate, curious, creative and solution-driven team players.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <div class="choose-card">
+                        <i class="flaticon-recruitment  choose-card-icon"></i>
+                        <h3 class="choose-card-h3">Keep Up to Date</h3>
+                        <p class="choose-card-p">Stay informed about the current job market trends, in-demand skills,
+                            and fluctuations in various industries. Our updates help you navigate job searches more
+                            effectively.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+                    <div class="choose-card choose-card-response">
+                        <i class="flaticon-employee choose-card-icon"></i>
+                        <h3 class="choose-card-h3">Ready to Pursue Your Dreams?</h3>
+                        <p class="choose-card-p">Start your journey towards your dream job. Explore, apply, and make
+                            your aspirations a reality through our platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+<!-- 3 Easy Steps -->
+
+<!-- Top Companies -->
+<section class="company-section pt-100 pb-70">
+        <div class="container ">
+            <div class="section-title text-center">
+                <h2 class="top-com-h2">Top Companies</h2>
+                <p>"A Proven Track Record of Placement in Reputed Companies"</p>
+            </div>
+            <div>
+                
+
+
+                            <div class="row">
+                                <div class="custom-carousel-container">
+                                    <div class="custom-carousel">
+                                {% for i in companies %}
+                                <div class="col-md-4 col-lg-4 col-4 col-xl-4 col-xxl-4 col-xm-4">
+                                    <div class="card card-com" id="companycard">
+                                        <div class="my-custom-company-logo-container">
+                                            {% if i.company_logo%}
+                                            <img class=" companies-img" style="width: 100% !important;" src="{{i.company_logo.url}}">
+                                            {% endif%}
+                                        </div>
+                                        <div class="company-detail-div">
+                                            <h5 class="companies-h5">{{i.company_name}}</h5>
+                                            {% comment %} <p class="companies-p"><i class="bi bi-geo-alt"></i>{{i.address}}</p> {% endcomment %}
+                                        </div>
+
+                                    </div>
+                                </div>
+
+
+                                
+                                       
+                                    
+                                
+                                {% endfor %}
+                            </div>
+                        </div>
+                            </div>
+
+                    
+
+            </div>
+        </div>
+</section>
+<!-- Top Companies -->
+
+<!-- Counts -->
+<div class="counter-section pt-100 pb-70">
+        <div class="container">
+            <div class="row counter-area">
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-resume"></i>
+                        <h2><span class="counter-span">{{job_posted_count}}</span></h2>
+                        <p>Job Posted</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-recruitment"></i>
+                        <h2><span class="counter-span">{{applied_jobs_count}}</span></h2>
+                        <p>Applied Jobs</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-portfolio"></i>
+                        <h2><span class="counter-span">{{company_count}}</span></h2>
+                        <p>Company</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-employee"></i>
+                        <h2><span class="counter-span">{{members_count}}</span></h2>
+                        <p>Members</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- Counts -->
+
+<!-- Client Reviews -->
+<section class="company-section pt-100 pb-70">
+        <div class="section-title text-center">
+            <h2 class="top-com-h2">What Clients Say About Us</h2>
+            <p>"Our Satisfied Customers."</p>
+        </div>
+        <div>
+            <div class="slide-container swiper" style=" width: 70%;" >
+                <div class="slide-content" style=" width: 90%; margin: auto; ">
+                    <div class="card-wrapper swiper-wrapper">
+                                          
+                        {% for i in testimonial %}
+                        <div class="card swiper-slide" style=" padding: 10px;">
+                           
+                            <div class="testimonial-text" style="padding:15px" id="client-testimonial-detail-container">
+                              <!-- <h3>{{i.customer_name}}</h3>
+                              <p class="company-title">{{i.company_name.company_name}}</p> -->
+                              <p id="client-testmonial-paragraph"> <b>" </b> {{i.reviews}} <b > " </b></p>
+                            </div>
+                            <div class="profile-img" style="z-index: 100; display: flex;">
+                                <div class="w-50" style="margin-left: 10px;">
+                                    {%if i.customer_img%}
+                                    <img class="client-image" src="{{i.customer_img.url}}" alt="Client 1">
+                                    {% endif %}
+                                </div>
+                                <div class="w-50" style="padding-top: 40px;">
+                                    <h3>{{i.customer_name}}</h3>
+                              <p class="company-title">{{i.company_name.company_name}}</p>
+                                </div>
+                                
+                            </div>
+                          </div>
+                        {% endfor %}          
+                       
+                    </div>
+                </div>
+            
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </div>
+</section>
+<!-- Client Reviews -->
+{% if request.user.is_authenticated and whatsapp %}
+<!-- WhatsApp Number Modal -->
+<div class="modal fade" id="whatsappModal" tabindex="-1" role="dialog" aria-labelledby="whatsappModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header" style="background:#3fc74d;">
+                <img src="../static/assets/images/Wpp.png" style="height: 50px; width: 50px;" alt="">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="font-size: 40px; color: white;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form method="POST" action="{% url 'ageis_app:submit_whatsapp_number' %}">
+                {% csrf_token %}
+                <div class="modal-body" style="background: #ffffff;">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="whatsapp_number" name="whatsapp_number" placeholder="Enter your whatsapp number..." required style="font-size: small;">
+                    </div>
+                </div>
+                <div class="modal-footer" style="background: #ffffff; border-top: none;">
+                
+                    <button type="submit" class="btn btn-primary" style="background: #5ab93d; border: none; border-radius: 0%; font-size: small;">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endif %}
+
+<footer class="footer-area pt-100 pb-70 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="{% url 'ageis_app:index' %}">
+                                <img class="logo-footer" src="{% static 'assets/images/suja.jpg' %}" alt="logo">
+                            </a>
+                        </div>
+                        <p class="text-dark brand-quoete text-center"><i>We make Recruitment enjoyable,
+                                efficient,enagaging! Let’s create
+                                “Success Together"</i></p>
+                                <div class="footer-social">
+                                    <a href="https://www.facebook.com/profile.php?id=61558775116418" target="_blank"><i class="bx bxl-facebook footer-social-icon-face"></i></a>
+                                    <a href="https://www.instagram.com/ageis_recruitment_consultancy_?utm_source=qr&igsh=azRoNml4MGd0cG8x" target="_blank"><i class="bx bxl-instagram footer-social-icon-insta "></i></a>
+                                    <a href="https://www.linkedin.com/company/ageis-recruitment-and-hr-consultancy/" target="_blank"><i class="bx bxl-linkedin footer-social-icon-linked"></i></a>
+                                    <a href="https://wa.link/sws14o" target="_blank"><i
+                                            class="bx bxl-whatsapp footer-social-icon-whatsapp "></i></a>
+                                </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget pl-60">
+                        <h3 class="text-dark">For Candidate</h3>
+                        <ul>
+                            <li>
+                                <a href="job-grid.html">
+                                    <a class="text-dark" href="{% url 'ageis_app:resume_writing' %}">
+                                        <i class="bx bx-chevrons-right bx-tada"></i>
+                                        Resume writing
+                                    </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:interviewtips' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Interview Tips
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget pl-60">
+                        <h3 class="text-dark">Quick Links</h3>
+                        <ul>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:index' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:about_us' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:jobs_frontend' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:clients' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Clients
+                                </a>
+                            </li>
+                            {% comment %} <li>
+                                <a class="text-dark" href="{% url 'ageis_app:blogs' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Blog
+                                </a>
+                            </li> {% endcomment %}
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:contact_us' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget footer-info">
+                        <h3 class="text-dark">Information</h3>
+                        <ul>
+                            <li>
+                                <span class="text-dark contact-detail"><i class="bx bxs-phone"></i>Phone:</span><a
+                                    class="text-dark contact-detail" href="tel:+919846825699">+91 9846825699
+                                    </a><br>
+                                <a class="text-dark contact-detail" href="tel:+918848762481">+91 8848762481</a>
+                            </li>
+                            <li>
+                                <span class="text-dark contact-detail"><i class='bx bxs-envelope'></i>Email:</span><a
+                                    class="text-dark contact-detail"
+                                    href="mailto:info@sujaconsultancies.in">info@sujaconsultancies.in</a>
+                            </li>
+
+                            <li>
+                                <span class="text-dark contact-detail">
+                                    <i class="bx bx-location-plus"></i>
+                                    Address:
+                                </span>
+                                <ul>
+                                    <li class="text-dark contact-detail">
+                                        Sector 18A. Plot No. 98.
+                                    </li>
+                                    <li class="text-dark contact-detail">
+                                        Nerul west. Navi Mumbai,
+                                    </li>
+                                    <li class="ps-0 text-dark contact-detail">
+                                        Maharashtra 4000706
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</footer>
+
+<div class="copyright-text text-center">
+        <div class="footer-2">
+            {% comment %} <div class="footer-section-2">
+                <a class="footer-sec2-a" href="disclaimer.html">Disclaimer</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="terms.html">Terms and Conditions</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="faq.html">FAQ</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="privacy.html">Privacy and policy</a>
+            </div> {% endcomment %}
+            <div class="footer-section-2">
+                <a class="footer-sec2-a" href="{% url 'ageis_app:disclaimer' %}">Disclaimer</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="{% url 'ageis_app:terms' %}">Terms and Conditions</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="{% url 'ageis_app:faq' %}">FAQ</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="{% url 'ageis_app:privacy' %}">Privacy and policy</a>
+            </div>
+        </div>
+        <p>Copyright © 2024<a href="https://trivlogic.com/" class="copyright-text-a"
+                target="_blank">Trivlogic Pvt Ltd.</a> All rights reserved.</p>
+</div>
+
+    <section class="section-chat-box">
+        <div class="collapse" id="chat-box">
+            <div class="">
+                <div class="chat-box">
+                    <div class="card card-chat-box">
+                        <div class="header-chat">
+                            <div class="header-chat-box">
+                                <div class="logo-div-chat-box">
+                                    <img class="logo-chat-box" src="{% static 'assets/images/suja.jpg' %}">
+                                    <a href="#" class="close-btn-a"><i class="bi bi-x-square close-btn"></i></a>
+                                </div>
+                                <h2 class="h2-chat-box">Suja Consultancies ONLINE CHAT BOT</h2>
+
+                            </div>
+                        </div>
+                        <div class="middle-chat-box container">
+                            <span>Today</span>
+                            <div class="span-div-chat-box row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col">
+                                    <span class="span-chat-box">Hello Welcome</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time">2.30pm</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="span-div-chat-box-1 row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col-1">
+                                    <span class="span-chat-box-1">Hai</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time-1">2.30pm</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-chat-box">
+                            <div class="footer-div-chat-box">
+                                <input class="footer-input-chat-box" type="text" placeholder="Chat with me"
+                                    id="chat-input">
+                                <a href="#" id="send-it"><i class="material-icons footer-send-chat-box">send</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a class="btn btn-whatsapp text-dark" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false"
+            aria-controls="collapseExample"><i class="bi bi-whatsapp chat-box-whtasapp "></i> Chat with us</a> -->
+        {% comment %} <a class="connect-btn" href="{% url 'ageis_app:contact_us' %}"><i
+                class="bi bi-telephone-outbound me-3 call-connect"></i>Let connect us</a> {% endcomment %}
+    </section>
+
+    <div class="top-btn">
+        <i class="bx bx-chevrons-up bx-fade-up"></i>
+    </div>
+
+
+    {% comment %}
+    <script data-cfasync="false"
+        src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script> {% endcomment %}
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+
+    <script src="{% static 'assets/js/meanmenu.js' %}"></script>
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/home.js' %}"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        // Automatically trigger the modal if conditions are met
+        $(document).ready(function(){
+            {% if request.user.is_authenticated and whatsapp %}
+            $('#whatsappModal').modal('show');
+            {% endif %}
+        });
+    </script>
+    
+    <script>
+        $(document).ready(function () {
+            // This section is unnecessary for closing the modal since Bootstrap handles it via data-dismiss="modal"
+            
+            // If you need custom close functionality
+            $("#whatsappModal .close").click(function () {
+                $("#whatsappModal").modal('hide');
+            });
+        });
+    </script>
+    
+    <script>
+        const messages = [
+            "Get Recruited to the Professional Companies and make your dream come| true",
+            "Sourcing & finding relevant & talented people for your organisation is one of the most important things these days",
+            "Choose a job you love,and you will never have to work a day in your life.",
+            "Hunt for the right destination, and it will lead you to your dreams",
+            "We trust in your ability because it is faith that moves mountains and not reason"
+        ];
+
+        let i = 0;
+
+        function setTextWithDelay(text, delay) {
+            setTimeout(function () {
+                document.getElementById("text-h2").innerHTML = text;
+                i = (i + 1) % messages.length; // Increment and cycle the index
+                setTextWithDelay(messages[i], 5000); // Set the next message with a delay
+            }, delay);
+        }
+
+        setTextWithDelay(messages[i], 0); // Start the loop with the first message
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".toogle-icon-a").click(function () {
+                $(".toogle-icon").hide();
+                $(".toogle-div").animate({ right: "0px" });
+            })
+            $(".close-icon-a").click(function () {
+                $(".toogle-icon").show();
+                $(".toogle-div").animate({ right: "-300px" });
+            })
+        })
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#carousel1').slick({
+                slidesToShow: 3,
+                autoplay: true,
+                autoplaySpeed: 1000,
+                // Add more options as needed
+            });
+            // Add more carousel initializations as needed
+        });
+    </script>
+</body>
+ <!-- Swiper JS -->
+ <script src="/static/assets/js/swiper-bundle.min.js"></script>
+
+ <!-- JavaScript -->
+ <script src="/static/assets/js/scriptss.js"></script>
+</html>

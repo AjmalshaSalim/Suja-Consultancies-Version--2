@@ -1,0 +1,237 @@
+.div-row{
+    text-align: center;
+    margin-top: 2%;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 3%;
+    padding-bottom: 10%;
+    
+ }
+ /* body{
+  background-color: #FFFBFC;
+ } */
+ .bg-div {
+  background-image: url('../bg-video/suja-abstract.png');
+  background-size: cover;
+}
+.reg-a{
+  color: #1b61a6;
+}
+.reg-a:hover{
+  color: #3186db;
+}
+.register-div{
+  margin-top: 5%;
+  color: black;
+}
+ .frm-logo{
+    width: 42%;
+ }
+.footer-social-1{
+    margin-top: 5%;
+}
+.footer-social{
+   display: none;
+}
+.form-control-3,.form-control-2{
+    margin-top: 7%;
+}
+.form-control-btn{
+    margin-top: 7%;
+    text-align: center;
+}
+.reg-h2{
+    text-align: center;
+    opacity: 50%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.back-home-icon{
+  font-size: x-large;
+  border: 1px solid #00000015;
+  padding: 10px;
+  border-radius: 20%;
+}
+.back-home-icon:hover{
+  box-shadow:1px 2px 3px 2px #0000003f;
+}
+input:focus{
+    outline: none;
+    box-shadow:1px 2px 3px 10px #1b61a6;
+} 
+.form-control-label{
+    color: black;
+    margin-top: 7%;
+}
+  .footer-social-icon-face,.footer-social-icon-insta,.footer-social-icon-linked,.footer-social-icon-whatsapp{
+ margin: 2%;
+ padding: 1%;
+ border-radius: 50px;
+  }
+  input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.back-home-icon{
+    font-size: x-large;
+}
+@media screen and (max-width: 1400px) and (min-width:  1200px) {
+  .back-home {
+    margin-top: 2%;
+  }
+  .frm-logo {
+    width: 35%;
+    margin-top: 9%;
+  }
+
+.form-control-3, .form-control-2 {
+  font-size: small;
+}
+}
+@media screen and (max-width: 1200px) and (min-width:  992px) {
+  .back-home {
+    margin-top: 2%;
+  }
+  .frm-logo {
+    width: 35%;
+    margin-top: 9%;
+  }
+
+.form-control-3, .form-control-2 {
+  font-size: x-small;
+}
+}
+@media screen and (max-width: 992px) and (min-width:  768px) {
+  .back-home {
+    margin-top: 2%;
+  }
+  .frm-logo {
+    width: 35%;
+    margin-top: 9%;
+  }
+
+.form-control-3, .form-control-2 {
+  font-size: xx-small;
+}
+}
+
+@media screen and (max-width: 768px) and (min-width:  700px) {
+    .frm-login {
+        font-size: small;
+        
+      }
+      .form-control-3,.form-control-2 ,.form-control-btn{
+        font-size: smaller;
+      }
+}
+@media screen and (max-width: 700px) and (min-width:  600px) {
+    .frm-login {
+        font-size: x-small;
+        
+      }
+      .form-control-3,.form-control-2 ,.form-control-btn{
+        font-size: small;
+      }
+      .footer-social-1{
+        display: none;
+     }
+     .footer-social{
+        display: block;
+           }
+}
+@media screen and (max-width: 600px) and (min-width:  500px) {
+    .frm-login {
+      
+       
+        font-size: x-small;
+       
+      }
+      .form-control-3,.form-control-2 ,.form-control-btn{
+       
+   
+        font-size: x-small;
+      }
+      .footer-social-1{
+        display: none;
+     }
+     .footer-social{
+        display: block;
+           }
+           .div-row {
+            margin-left: 0%;
+          }
+}
+@media screen and (max-width: 500px) and (min-width:  400px) {
+    .frm-login {
+       
+        font-size: x-small;
+       
+       
+      }
+      .form-control-3,.form-control-2 ,.form-control-btn{
+      
+     
+     
+        font-size: x-small;
+      }
+      .footer-social-1{
+        display: none;
+     }
+     .footer-social{
+        display: block;
+           }
+           .div-row {
+            margin-left: 0%;
+          }
+   
+}
+@media screen and (max-width: 400px) and (min-width:  300px) {
+    .frm-login {
+       
+        font-size: x-small;
+       
+      }
+      .form-control-3,.form-control-2 ,.form-control-btn{
+        
+     
+        font-size: x-small;
+      }
+      .footer-social-1{
+        display: none;
+     }
+     .footer-social{
+        display: block;
+           }
+           .div-row {
+            margin-left: 0%;
+          }
+   
+}
+@media screen and (max-width: 300px) and (min-width:  200px) {
+    .frm-login {
+      
+        font-size: x-small;
+      
+       
+      }
+      .form-control-3,.form-control-2 ,.form-control-btn{
+      
+        font-size: x-small;
+      }
+      .footer-social-1{
+        display: none;
+     }
+     .footer-social{
+        display: block;
+           }
+           .div-row {
+            margin-left: 0%;
+          }
+}

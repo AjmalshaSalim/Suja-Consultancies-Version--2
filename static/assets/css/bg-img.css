@@ -1,0 +1,58 @@
+.banner-bg-2 {
+background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0,0 ), rgba(0, 0, 0, 0)), url(../images/background-img/bg-gif-home.gif);
+}
+video{
+        /* background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; */
+        background-image: linear-gradient(rgba(0, 0, 0), rgba(7, 6, 0));
+    }
+.banner-bg-3 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/about-bg.gif);
+}
+
+
+.banner-bg-4 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/clients-bg.gif);
+}
+
+.banner-bg-5 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/job-bg.gif);
+}
+
+.banner-bg-6 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/resume-bg.gif);
+}
+.banner-bg-9 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/interview-tips-bg.gif);
+}
+.banner-bg-10 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/blog-bg.gif);
+}
+.banner-bg-11 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../bg-video/contact-bg.gif);
+}

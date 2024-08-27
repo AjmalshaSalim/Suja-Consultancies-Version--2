@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Suja Consultancies | Terms & Conditions</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    
+        <link rel="stylesheet" href="assets/css/boxicon.min.css">
+    
+        <link rel="stylesheet" href="assets/fonts/flaticon/flaticon.css">
+    
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+    
+        <link rel="stylesheet" href="./assets/css/chat-box.css">
+    
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+    
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+        <link rel="stylesheet" href="assets/css/home.css">
+    
+        <link rel="stylesheet" href="assets/css/dark.css">
+    
+        <link rel="stylesheet" href="assets/css/dark.css">
+    
+        <link rel="stylesheet" href="./assets/css/responsive-2.css">
+    
+        <link rel="stylesheet" href="assets/css/responsive-2.css">
+    
+        <link rel="stylesheet" href="./assets/css/chat-box.css">
+    
+        <link rel="stylesheet" href="./assets/css/bg-img.css">
+    
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+            integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
+    
+        <link rel="icon" type="image/png" href="./assets/img/Agies-logo-favi.ico">
+    
+        <link rel="stylesheet" href="./assets/css/policy.css">
+
+      
+    </head>
+<body>
+  <nav-2>
+    <div class="full-nav">
+      
+      <div class="container div-container">
+        <div class="nav-phn">
+          <a class="phn-a" href="tel:+91 62 38 65 75 28"><i class="bi bi-telephone-outbound-fill nav-social-call"></i>+91 62 38 65 75 28</a>
+        </div>
+        <div class="nav-mail-comb">
+            <div class="nav-mail">
+             <a class="email-a" href="mailto:info@sujaconsultancies.in"><i class="bi bi-envelope-at-fill nav-social-email"></i>info@sujaconsultancies.in</a>
+            </div>
+            <div class="nav-social">
+                <ul class="nav-social-ul" type="none">
+                    <li class="nav-social-name"><a  class="nav-social-a" href="https://wa.link/sws14o"><i class="bi bi-whatsapp nav-social-whats"></i></a></li>
+                    <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-instagram nav-social-insta"></i></a></li>
+                    <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-linkedin nav-social-linked"></i></a></li>
+                    <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-facebook nav-social-face"></i></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+
+    </div>
+ </nav-2>
+ <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-lg">
+    <div class="container">
+        <a class="navbar-brand brand-logo-a" href="#"><img class="brand-logo"
+                src="./assets/images/suja-logo.png"></a>
+        <div class="nav-bar-align">
+
+        </div>
+        <div class="collapse navbar-collapse div-ul-nav" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="jobs.html">Jobs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="clients.html">Clients</a>
+                </li>
+                {% if user.is_authenticated %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{% url 'ageis_app:user_profile' %}">My Profile</a>
+                </li>
+                {% else %}
+                    <p></p>
+                    {% endif %}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a>
+                    <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item dropdown-link" href="resumewriting.html">Resume Writing</a></li>
+                        <li><a class="dropdown-item dropdown-link" href="interviewtips.html">Interview Tips</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li> -->
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link btn-hello " id="chatwithus">
+                        Chat with Us</a>
+                </li>
+            </ul>
+        </div>
+        <div class="chat-box" id="chat-box">
+            <div class="chat-box-head">
+        
+                <img class="logo-chat-box-1" src="./assets/images/Agies-logo.png">
+        
+                <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                <div id="close-btn"><i class="bi bi-x-square chat-close"></i></div>
+            </div>
+            <div class="chat-box-middle">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="chat">
+                                <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="chat-box-footer">
+                <input type="text" class="form-control w-75" id="chat-input" placeholder="Chat with me">
+                <div id="send-it"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+            </div>
+        </div>
+        </div>
+        <div class="nav-item">
+            <a class="nav-link log-color" href="login.html">Login</a>
+        </div>
+        <div>
+            <ul class="logout-ul" type="none">
+                <li class="nav-item dropdown">
+                    <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-person-circle"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item">Username</a></li>
+                        <li><a class="dropdown-item ">9876543210</a></li>
+                        <li><a class="dropdown-item ">abcd@gmail.com</a></li>
+                        <li><a class="dropdown-item" href="change-password.html">Change password</a></li>
+                        <li><a class="dropdown-item" href="">Log out</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            
+        </div>
+</nav>
+<nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-mob">
+    <div class="container">
+        <a class="navbar-brand brand-logo-a" href="#"><img class="brand-logo"
+                src="./assets/images/suja-logo.png"></a>
+        <div class="nav-width">
+            <ul class="navbar-nav navbar-nav-1">
+                <li class="nav-item">
+                    <a  class="nav-link btn-hello " id="chat-with-us">
+                        Chat with Us</a>
+                </li>
+            
+                <li class="nav-item">
+                    <a class="nav-link log-color" href="login.html">Login</a>
+                </li>
+                <li class="nav-item toogle-icon-div">
+                    <a href="#" class="toogle-icon-a"><i class="bi bi-card-text toogle-icon"></i></a>
+                </li>
+            </ul>
+            <div class="chat-box" id="chat-box-mob">
+                <div class="chat-box-head">
+                     
+                       <img  class="logo-chat-box-1" src="./assets/images/Agies-logo.png">
+                   
+                     <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                     <div id="close-btn-mob"><i class="bi bi-x-square chat-close"></i></div>
+                </div>
+                <div class="chat-box-middle">
+                   <div class="container">
+                       <div class="row">
+                           <div class="col-6">
+                               <div class="chat">
+                                   <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                               </div>
+                           </div>
+                         </div>
+                   </div>
+                </div>
+                <div class="chat-box-footer">
+                   <input type="text" class="form-control w-75" id="chat-input-mob" placeholder="Chat with me">
+                   <div id="send-it-mob"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+               </div>
+                </div>
+        </div>
+        <div class="toogle-div">
+            <div class="close-icon-div">
+              <a href="#" class="close-icon-a"><i class="bi bi-x-circle close-icon"></i></a>
+            </div>
+            <div>
+                <ul type="none">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jobs.html">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="clients.html">Clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-link" href="resumewriting.html">Resume Writing</a></li>
+                            <li><a class="dropdown-item dropdown-link" href="interviewtips.html">Interview Tips</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+          </div>
+    </div>
+</nav>
+    <div class="bg-div">
+        <h1 class="text-center mt-5 mb-5">Frequently Asked Questions</h1>
+        <div class="container">
+            <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-1" role="button" aria-expanded="false" aria-controls="collapseExample">1. What services does Suja Consultancies provide?</h4>
+              <p class="collapse" id="faq-1">
+                Suja Consultancies Recruitment&HR Services specializes in connecting talented individuals with job opportunities. We offer a range of recruitment and staffing services to both employers and job seekers.
+              </p>
+        
+            <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-2" role="button" aria-expanded="false" aria-controls="collapseExample">2. How can I submit my resume or job application?</h4>
+              <p class="collapse" id="faq-2">
+                Job seekers can submit their resumes or job applications directly through our website by [providing a link to your submission portal] or by <a href="mailto:Info@ageisrecruitment.online">Info@ageisrecruitment.online<a>
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-3" role="button" aria-expanded="false" aria-controls="collapseExample">3. How does the recruitment process work for job seekers?</h4>
+              <p class="collapse" id="faq-3">
+                Our recruitment process typically involves submitting your application, initial screening, interviews, and potential assessments. We strive to keep candidates informed at every stage of the process.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-4" role="button" aria-expanded="false" aria-controls="collapseExample">4. How can employers partner with Suja Consultancies Recruitment&HR Services to find candidates?</h4>
+              <p class="collapse" id="faq-4">
+                Employers can contact us through <a href="mailto:info@ageisrecruitment.online">info@ageisrecruitment.online</a> to discuss their staffing needs. We provide tailored recruitment solutions, including candidate sourcing, screening, and placement services.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-5" role="button" aria-expanded="false" aria-controls="collapseExample">5. Are there fees associated with using Suja Consultancies services?</h4>
+              <p class="collapse" id="faq-5">
+                Our fee structure varies based on the services provided. For detailed information on fees, please contact our [sales/support team] for a customized quote.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-6" role="button" aria-expanded="false" aria-controls="collapseExample">6. How long does the recruitment process usually take?</h4>
+              <p class="collapse" id="faq-6">
+                The duration of the recruitment process can vary depending on factors such as the position, industry, and client requirements. We strive to match candidates efficiently without compromising quality.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-7" role="button" aria-expanded="false" aria-controls="collapseExample">7. Is my personal information secure with Suja Consultancies Recruitment?</h4>
+              <p class="collapse" id="faq-7">
+                Yes, we take the privacy and security of your personal information seriously. Please refer to our Privacy Policy for details on how we collect, use, and protect your data.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-8" role="button" aria-expanded="false" aria-controls="collapseExample">8. Can I update my profile or resume after submission?</h4>
+              <p class="collapse" id="faq-8">
+                Yes, registered users can log in to their accounts and update their profiles or resumes at any time.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-9" role="button" aria-expanded="false" aria-controls="collapseExample">9. What industries does Suja Consultancies specialize in?</h4>
+              <p class="collapse" id="faq-9">
+                We have experience serving a wide range of industries, including Banking,IT,Insurance,BPO,Hospitality etc.Our diverse expertise allows us to match candidates with opportunities in various sectors.
+              </p>
+              <h4 class=" faq-a" data-bs-toggle="collapse" href="#faq-10" role="button" aria-expanded="false" aria-controls="collapseExample">10. How do I contact Suja Consultancies  for further assistance?</h4>
+              <p class="collapse" id="faq-10">
+                For additional assistance or inquiries, you can reach our[customer support team] at <a href="mailto:info@ageisrecruitment.online ">info@ageisrecruitment.online </a>	
+              </p>
+            </div>
+    </div>
+    <footer class="footer-area pt-100 pb-70 bg-light">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                  <div class="footer-widget">
+                      <div class="footer-logo">
+                          <a href="index.html">
+                              <img class="logo-footer" src="assets/images/Agies-logo.png" alt="logo">
+                          </a>
+                      </div>
+                      <p class="text-dark brand-quoete text-center"><i>We make Recruitment enjoyable,
+                              efficient,enagaging! Let’s create
+                              “Success Together"</i></p>
+                              <div class="footer-social">
+                                <a href="https://www.facebook.com/profile.php?id=61558775116418" target="_blank"><i class="bx bxl-facebook footer-social-icon-face"></i></a>
+                                <a href="https://www.instagram.com/ageis_recruitment_consultancy_?utm_source=qr&igsh=azRoNml4MGd0cG8x" target="_blank"><i class="bx bxl-instagram footer-social-icon-insta "></i></a>
+                                <a href="https://www.linkedin.com/company/ageis-recruitment-and-hr-consultancy/" target="_blank"><i class="bx bxl-linkedin footer-social-icon-linked"></i></a>
+                                <a href="https://wa.link/sws14o" target="_blank"><i
+                                        class="bx bxl-whatsapp footer-social-icon-whatsapp "></i></a>
+                            </div>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                  <div class="footer-widget pl-60">
+                      <h3 class="text-dark">For Candidate</h3>
+                      <ul>
+                          <li>
+                              <a href="job-grid.html">
+                                  <a class="text-dark" href="resumewriting.html">
+                                      <i class="bx bx-chevrons-right bx-tada"></i>
+                                      Resume writing
+                                  </a>
+                          </li>
+                          <!-- <li>
+                              <a class="text-dark" href="internship.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Internship
+                              </a>
+                          </li>
+                          <li>
+                              <a class="text-dark" href="Aboardstudy.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Aboard study
+                              </a>
+                          </li> -->
+                          <li>
+                              <a class="text-dark" href="Interviewtips.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Interview Tips
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                  <div class="footer-widget pl-60">
+                      <h3 class="text-dark">Quick Links</h3>
+                      <ul>
+                          <li>
+                              <a class="text-dark" href="{% url 'ageis_app:index' %}">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Home
+                              </a>
+                          </li>
+                          <li>
+                              <a class="text-dark" href="about.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  About Us
+                              </a>
+                          </li>
+                          <li>
+                              <a class="text-dark" href="jobs.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Jobs
+                              </a>
+                          </li>
+                          <li>
+                              <a class="text-dark" href="clients.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Clients
+                              </a>
+                          </li>
+                          <!-- <li>
+                              <a class="text-dark" href="blog.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Blog
+                              </a>
+                          </li> -->
+                          <li>
+                              <a class="text-dark" href="contact.html">
+                                  <i class="bx bx-chevrons-right bx-tada"></i>
+                                  Contact Us
+                              </a>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                  <div class="footer-widget footer-info">
+                      <h3 class="text-dark">Information</h3>
+                      <ul>
+                          <li>
+                              <span class="text-dark contact-detail"><i class="bx bxs-phone"></i>Phone:</span><a
+                                  class="text-dark contact-detail" href="tel:+916238657528">+91 62 38 65 75 28</a><br>
+                              <a class="text-dark contact-detail" href="tel:+919346738016">+91 93 46 73 80 16</a>
+                          </li>
+                          <li>
+                              <span class="text-dark contact-detail"><i class='bx bxs-envelope'></i></i>Email:</span><a
+                                  class="text-dark contact-detail"
+                                  href="mailto:info@sujaconsultancies.in">info@sujaconsultancies.in</a>
+                          </li>
+
+                          <li>
+                              <span class="text-dark contact-detail">
+                                  <i class="bx bx-location-plus"></i>
+                                  Address:
+                              </span>
+                              <ul>
+                                <li class="text-dark contact-detail">
+                                    Sector 18A. Plot No. 98.
+                                </li>
+                                <li class="text-dark contact-detail">
+                                    Nerul west. Navi Mumbai,
+                                </li>
+                                <li class="ps-0 text-dark contact-detail">
+                                    Maharashtra 4000706
+                                </li>
+                            </ul>
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+  <div class="copyright-text text-center">
+      <div class="footer-2">
+          <div class="footer-section-2">
+              <a class="footer-sec2-a" href="disclaimer.html">Disclaimer</a>
+              <span>|</span>
+              <a class="footer-sec2-a" href="terms.html">Terms and Conditions</a>
+              <span>|</span>
+              <a class="footer-sec2-a" href="faq.html">FAQ</a>
+              <span>|</span>
+              <a class="footer-sec2-a" href="privacy.html">Privacy and policy</a>
+          </div>
+      </div>
+      <p>Copyright © 2024<a href="https://trivlogic.com/" class="copyright-text-a"
+        target="_blank">Trivlogic Pvt Ltd.</a> All rights reserved.</p>
+  </div>
+  <section class="section-chat-box">
+    <div class="collapse" id="chat-box">
+        <div class="">
+            <div class="chat-box">
+                <div class="card card-chat-box">
+                    <div class="header-chat">
+                        <div class="header-chat-box">
+                            <div class="logo-div-chat-box">
+                                <img class="logo-chat-box" src="./assets/images/Agies-logo.png">
+                                <a href="#" class="close-btn-a"><i class="bi bi-x-square close-btn"></i></a>
+                            </div>
+                            <h2 class="h2-chat-box">Suja Consultancies ONLINE CHAT BOT</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="middle-chat-box container">
+                        <span>Today</span>
+                        <div class="span-div-chat-box row">
+                            <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col">
+                                <span class="span-chat-box">Hello Welcome</span>
+                                <div class="d-flex justify-content-end">
+                                    <span class="span-chat-box-time">2.30pm</span>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="span-div-chat-box-1 row">
+                            <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col-1">
+                                <span class="span-chat-box-1">Hai</span>
+                                <div class="d-flex justify-content-end">
+                                    <span class="span-chat-box-time-1">2.30pm</span>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="footer-chat-box">
+                        <div class="footer-div-chat-box">
+                            <input class="footer-input-chat-box" type="text" placeholder="Chat with me">
+                            <a href="#" class=""><i class="material-icons footer-send-chat-box">send</i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    $(document).ready(function(){
+        $(".toogle-icon-a").click(function(){
+            $(".toogle-icon").hide();
+            $(".toogle-div").animate({right:"0px"});
+        })
+        $(".close-icon-a").click(function(){
+            $(".toogle-icon").show();
+            $(".toogle-div").animate({right:"-300px"});
+        })
+    })
+  </script>
+  <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script src="assets/js/owl.carousel.min.js"></script>
+
+  <script src="./assets/js/owl.carousel.min.js"></script>
+
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+  <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+
+  <script src="assets/js/form-validator.min.js"></script>
+
+  <script src="assets/js/contact-form-script.js"></script>
+
+  <script src="assets/js/meanmenu.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script src="assets/js/home.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

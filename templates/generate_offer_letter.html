@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Offer Letter</title>
+</head>
+<body>
+    <h1>Generate Offer Letter</h1>
+    <p>Job Title: {{ job.title }}</p>
+    <p>Company: {{ job.company }}</p>
+    <p>Candidate: {{ candidate.user.first_name }} {{ candidate.user.last_name }}</p>
+    
+    <form method="post">
+        {% csrf_token %}
+        <!-- Add fields for offer letter details -->
+        <!-- Example: -->
+        <label for="offer_date">Offer Date:</label>
+        <input type="date" id="offer_date" name="offer_date" required><br><br>
+        
+        <label for="salary">Salary:</label>
+        <input type="text" id="salary" name="salary" required><br><br>
+        
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required><br><br>
+        
+        <input type="submit" value="Generate Offer Letter">
+    </form>
+</body>
+</html>

@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/boxicon.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/fonts/flaticon/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/nice-select.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/home.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive-2.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive-2.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bg-img.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/swiper/swiper-bundle.min.css' %}"> 
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="icon" type="image/png" href="{% static './assets/img/Agies-logo-favi.ico' %}">
+
+    <link rel="stylesheet" href="{% static './assets/css/policy.css' %} ">
+
+</head>
+
+<body>
+    <nav-2>
+        <div class="full-nav">
+            <div class="container div-container">
+                <div class="nav-phn">
+                <a class="phn-a" href="tel:+91 9846825699"><i class="bi bi-telephone-outbound-fill nav-social-call"></i>+91 9846825699</a>
+                </div>
+                <div class="nav-mail-comb">
+                    <div class="nav-mail">
+                        <a class="email-a" href="mailto:info@sujaconsultancies.in"><i class="bi bi-envelope-at-fill nav-social-email"></i>info@sujaconsultancies.in</a>
+                        <!-- <p class="nav-welcome-text">Welcome to Suja Consultancies: Empowering Talent, Enhancing Companies. Step into
+                            excellence with us.</p> -->
+
+                    </div>
+                    <div class="nav-social">
+                    <ul class="nav-social-ul" type="none">
+                        <li class="nav-social-name"><a  class="nav-social-a" href="https://wa.link/sws14o"><i class="bi bi-whatsapp nav-social-whats"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-instagram nav-social-insta"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-linkedin nav-social-linked"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-facebook nav-social-face"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav-2>
+    <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-lg">
+        <div class="container">
+            <a class="navbar-brand brand-logo-a" href="/"><img class="brand-logo"
+                    src="{% static 'assets/images/suja-logo.png'  %}"></a>
+            <div class="nav-bar-align">
+
+            </div>
+            <div class="collapse navbar-collapse div-ul-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'ageis_app:index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:about_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:jobs_frontend' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:clients' %}">Clients</a>
+                    </li>
+                    {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:user_profile' %}">My Profile</a>
+                    </li>
+                    {% else %}
+                    <p></p>
+                    {% endif %}
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:resume_writing' %}">Resume Writing</a></li>
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:interviewtips' %}">Interview Tips</a></li>
+                        </ul>
+                    </li>
+                    <!-- <li class="nav-item">
+                        {% comment %} <a class="nav-link" href="{% url 'ageis_app:blogs' %}">Blog</a> {% endcomment %}
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="{% url 'ageis_app:contact_us' %}" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                </ul>
+                <div class="chat-box" id="chat-box">
+                    <div class="chat-box-head">
+
+                        <img class="logo-chat-box-1" src="{% static 'assets/images/suja.jpg' %}">
+
+                        <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                        <div id="close-btn"><i class="bi bi-x-square chat-close"></i></div>
+                    </div>
+                    <div class="chat-box-middle">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="chat">
+                                        <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box-footer">
+                        <input type="text" class="form-control w-75" id="chat-input" placeholder="Chat with me">
+                        <div id="send-it"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+                    </div>
+                    <div>
+                    </div>
+
+
+                </div>
+                <a class=" btn-hello " id="chatwithus">
+                    <div class="chat-toggle-container">
+                        <img class="chat toggle-icon" src="../static/assets/images/chatboxred.png" alt="">
+                    </div>
+                </a>
+                {% if not user.is_authenticated %}
+                <div class="nav-item">
+                    <a class="nav-link log-color" href="{% url 'ageis_app:login' %}">Login</a>
+                </div>
+                {% else %}
+                <div>
+                    <ul class="logout-ul" type="none">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="bi bi-person-circle"></i>
+                            </a>
+                            {% if user.is_authenticated and not user.is_superuser %}
+                            <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item">{{user.username}}</a></li>
+                                {%if user.extenedusermodel.phone%}
+                                <li><a class="dropdown-item ">{{user.extenedusermodel.phone}}</a></li>
+                                {% endif %}
+                                <li><a class="dropdown-item ">{{user.email}}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a></li>
+                            </ul>
+                            {% else %}
+                            <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a></li>
+                            </ul>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    {% endif %}
+
+                </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-mob">
+        <div class="container">
+            <a class="navbar-brand brand-logo-a" href="/"><img class="brand-logo"
+                    src="{% static 'assets/images/suja-logo.png'  %}"></a>
+            <div class="nav-width">
+                <ul class="navbar-nav navbar-nav-1">
+                    <li class="nav-item">
+                        <a class="nav-link btn-hello " id="chat-with-us">
+                            Chat with Us</a>
+                    </li>
+                    <li class="nav-item">
+                        {% if not user.is_authenticated %}
+                        <div class="nav-item">
+                            <a class="nav-link log-color" href="{% url 'ageis_app:login' %}">Login</a>
+                        </div>
+                        {% else %}
+                        <div>
+                            <ul class="logout-ul" type="none">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-person-circle"></i>
+                                    </a>
+                                    {% if user.is_authenticated and not user.is_superuser %}
+                                    <ul class="dropdown-menu dropdown-bg drop-log-bg" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item">{{user.username}}</a></li>
+                                        <li><a class="dropdown-item ">{{user.extenedusermodel.phone}}</a></li>
+                                        <li><a class="dropdown-item ">{{user.email}}</a></li>
+                                        <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a>
+                                        </li>
+                                    </ul>
+                                    {% else %}
+                                    <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a>
+                                        </li>
+                                    </ul>
+                                    {% endif %}
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                        <div>
+                            {% endif %}
+                    </li>
+                    <li class="nav-item toogle-icon-div">
+                        <a href="#" class="toogle-icon-a"><i class="bi bi-card-text toogle-icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="chat-box" id="chat-box-mob">
+                <div class="chat-box-head">
+
+                    <img class="logo-chat-box-1" src="{% static 'assets/images/suja.jpg' %}">
+
+                    <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                    <div id="close-btn-mob"><i class="bi bi-x-square chat-close"></i></div>
+                </div>
+                <div class="chat-box-middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="chat">
+                                    <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-box-footer">
+                    <input type="text" class="form-control w-75" id="chat-input-mob" placeholder="Chat with me">
+                    <div id="send-it-mob"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="toogle-div">
+            <div class="close-icon-div">
+                <a href="#" class="close-icon-a"><i class="bi bi-x-circle close-icon"></i></a>
+            </div>
+            <div>
+                <ul type="none">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'ageis_app:index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:about_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:jobs_frontend' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:clients' %}">Clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:resume_writing' %}">Resume Writing</a></li>
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:interviewtips' %}">Interview Tips</a></li>
+                        </ul>
+                    </li>
+                    {% comment %} <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:blogs' %}">Blog</a>
+                    </li> {% endcomment %}
+                    <li class="nav-item">
+                        <a href="{% url 'ageis_app:contact_us' %}" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+    <div class="bg-div">
+        <h1 class="text-center mt-5 mb-5">Disclaimer</h1>
+        <div class="container">
+            <h2>1. Content Accuracy</h2>
+            <p>a .No Guarantees: While we strive to provide accurate and up-to-date information on our website,
+                Suja Consultancies & HR Services makes no representations or warranties of any kind, express or
+                implied, about the completeness, accuracy, reliability, suitability, or availability of the information,
+                products, services, or related graphics contained on the website for any purpose.</p>
+            <p>b. Changes: The content on our website may be subject to change without notice. We do not
+                guarantee that the information on our site is always current or complete.</p>
+            <h2>2. External Links</h2>
+            <p>a. Third-Party Links: Our website may contain links to external websites or resources that are not
+                operated or controlled by Aegis Recruitment & HR Services. We have no control over the content and
+                nature of these sites.</p>
+            <p>b. Disclaimer of Endorsement: Inclusion of any linked website does not imply endorsement by Aegis
+                Recruitment & HR Services. We disclaim any responsibility for the content, products, services, or
+                privacy practices of these external websites.</p>
+            <h2>3. Professional Advice</h2>
+            <p>a. Not Professional Advice: The information provided on our website is for general informational
+                purposes only and does not constitute professional advice. You should not rely solely on the
+                information provided and should seek professional advice where necessary</p>
+            <h2>4. Job Opportunities</h2>
+            <p>a. No Guarantee of Employment: Suja Consultancies & HR Services strives to connect qualified
+                candidates with potential employers. However, we do not guarantee job placement or employment
+                and are not responsible for the actions of employers or the outcomes of the recruitment process.</p>
+            <h2>5. Data Security</h2>
+            <p>a. No Absolute Security: While we implement security measures to protect your personal
+                information, we cannot guarantee the absolute security of data transmitted over the internet.</p>
+            <p>b. User Responsibilities: Users are responsible for ensuring the security of their own information,
+                including the use of secure passwords and protection against unauthorized access.</p>
+            <h2>6. Limitation of Liability</h2>
+            <p>a. No Liability: Aegis Recruitment & HR Services, its employees, or affiliates will not be liable for any
+                direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of
+                our website.</p>
+            <h2>7. Governing Law</h2>
+            <p>a. Jurisdiction: This disclaimer is governed by and construed in accordance with the laws of [Your
+                Jurisdiction]. Any disputes relating to this disclaimer will be subject to the exclusive jurisdiction of
+                the
+                courts in [Your Jurisdiction]</p>
+            <p>By using our website, you acknowledge that you have read, understood, and agree to the terms of
+                this disclaimer.</p>
+            <p>Thank you for visiting Suja Consultancies & HR Services</p>
+            <p>[Your Full Name]</p>
+            <p>[Your Position]</p>
+            <p>Suja Consultancies & HR Services</p>
+
+
+        </div>
+    </div>
+    <footer class="footer-area pt-100 pb-70 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <a href="{% url 'ageis_app:index' %}">
+                                <img class="logo-footer" src="{% static 'assets/images/suja.jpg' %}" alt="logo">
+                            </a>
+                        </div>
+                        <p class="text-dark brand-quoete text-center"><i>We make Recruitment enjoyable,
+                                efficient,enagaging! Let’s create
+                                “Success Together"</i></p>
+                                <div class="footer-social">
+                                    <a href="https://www.facebook.com/profile.php?id=61558492872249" target="_blank"><i class="bx bxl-facebook footer-social-icon-face"></i></a>
+                                    <a href="#" target="_blank"><i class="bx bxl-instagram footer-social-icon-insta "></i></a>
+                                    <a href="https://www.linkedin.com/in/ageis-recruitment-and-hr-consultancy-7b5574305/" target="_blank"><i class="bx bxl-linkedin footer-social-icon-linked"></i></a>
+                                    <a href="https://wa.link/sws14o" target="_blank"><i
+                                            class="bx bxl-whatsapp footer-social-icon-whatsapp "></i></a>
+                                </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget pl-60">
+                        <h3 class="text-dark">For Candidate</h3>
+                        <ul>
+                            <li>
+                                <a href="job-grid.html">
+                                    <a class="text-dark" href="{% url 'ageis_app:resume_writing' %}">
+                                        <i class="bx bx-chevrons-right bx-tada"></i>
+                                        Resume writing
+                                    </a>
+                            </li>
+                            <!-- <li>
+                                <a class="text-dark" href="internship.html">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Internship
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="Aboardstudy.html">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Aboard study
+                                </a>
+                            </li> -->
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:interviewtips' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Interview Tips
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget pl-60">
+                        <h3 class="text-dark">Quick Links</h3>
+                        <ul>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:index' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:about_us' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    About Us
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:jobs_frontend' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Jobs
+                                </a>
+                            </li>
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:clients' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Clients
+                                </a>
+                            </li>
+                            {% comment %} <li>
+                                <a class="text-dark" href="{% url 'ageis_app:blogs' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Blog
+                                </a>
+                            </li> {% endcomment %}
+                            <li>
+                                <a class="text-dark" href="{% url 'ageis_app:contact_us' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Contact Us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                    <div class="footer-widget footer-info">
+                        <h3 class="text-dark">Information</h3>
+                        <ul>
+                            <li>
+                                <span class="text-dark contact-detail"><i class="bx bxs-phone"></i>Phone:</span><a
+                                    class="text-dark contact-detail" href="tel:+91 6238657528">+91 62 38 65 75 28
+                                    </a><br>
+                                <a class="text-dark contact-detail" href="tel:+919346738016">+91 93 46 73 80 16</a>
+                            </li>
+                            <li>
+                                <span class="text-dark contact-detail"><i class='bx bxs-envelope'></i>Email:</span><a
+                                    class="text-dark contact-detail"
+                                    href="mailto:info@sujaconsultancies.in">info@sujaconsultancies.in</a>
+                            </li>
+
+                            <li>
+                                <span class="text-dark contact-detail">
+                                    <i class="bx bx-location-plus"></i>
+                                    Address:
+                                </span>
+                                <ul>
+                                    <li class="text-dark contact-detail">
+                                        Sector 18A. Plot No. 98.
+                                    </li>
+                                    <li class="text-dark contact-detail">
+                                        Nerul west. Navi Mumbai,
+                                    </li>
+                                    <li class="ps-0 text-dark contact-detail">
+                                        Maharashtra 4000706
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyright-text text-center">
+        <div class="footer-2">
+            <div class="footer-section-2">
+                <a class="footer-sec2-a" href="disclaimer.html">Disclaimer</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="terms.html">Terms and Conditions</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="faq.html">FAQ</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="privacy.html">Privacy and policy</a>
+            </div>
+        </div>
+        <p>Copyright © 2024<a href="https://trivlogic.com/" class="copyright-text-a"
+            target="_blank">Trivlogic Pvt Ltd.</a> All rights reserved.</p>
+    </div>
+    <section class="section-chat-box">
+        <div class="collapse" id="chat-box">
+            <div class="">
+                <div class="chat-box">
+                    <div class="card card-chat-box">
+                        <div class="header-chat">
+                            <div class="header-chat-box">
+                                <div class="logo-div-chat-box">
+                                    <img class="logo-chat-box" src="./assets/images/Agies-logo.png">
+                                    <a href="#" class="close-btn-a"><i class="bi bi-x-square close-btn"></i></a>
+                                </div>
+                                <h2 class="h2-chat-box">Suja Consultancies ONLINE CHAT BOT</h2>
+                                
+                            </div>
+                        </div>
+                        <div class="middle-chat-box container">
+                            <span>Today</span>
+                            <div class="span-div-chat-box row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col">
+                                    <span class="span-chat-box">Hello Welcome</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time">2.30pm</span>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="span-div-chat-box-1 row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col-1">
+                                    <span class="span-chat-box-1">Hai</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time-1">2.30pm</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="footer-chat-box">
+                            <div class="footer-div-chat-box">
+                                <input class="footer-input-chat-box" type="text" placeholder="Chat with me">
+                                <a href="#" class=""><i class="material-icons footer-send-chat-box">send</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $(".close-btn").click(function(){
+                $("#chat-box").hide();
+                // $(".btn-whatsapp").show();           
+             })
+             $(".btn-hello").click(function(){
+                // $(".btn-whatsapp").hide();
+                $("#chat-box").show();           
+             })
+        })
+    </script>
+     <script>
+        $(document).ready(function(){
+            $(".toogle-icon-a").click(function(){
+                $(".toogle-icon").hide();
+                $(".toogle-div").animate({right:"0px"});
+            })
+            $(".close-icon-a").click(function(){
+                $(".toogle-icon").show();
+                $(".toogle-div").animate({right:"-300px"});
+            })
+        })
+      </script>
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="{% static "assets/js/jquery.min.js" %} "></script>
+    <script src="{% static "assets/js/bootstrap.bundle.min.js" %}"></script>
+
+    <script src="{% static "assets/js/owl.carousel.min.js" %}"></script>
+
+    <script src="{% static "assets/js/owl.carousel.min.js" %}"></script>
+
+    <script src="{% static "assets/js/jquery.nice-select.min.js" %}"></script>
+
+    <script src="{% static "assets/js/jquery.magnific-popup.min.js" %}"></script>
+
+    <script src="{% static "assets/js/jquery.ajaxchimp.min.js" %}"></script>
+
+    <script src="{% static "assets/js/form-validator.min.js" %}"></script>
+
+    <script src="{% static "assets/js/contact-form-script.js" %}"></script>
+
+    <script src="{% static "assets/js/meanmenu.js" %}"></script>
+    <script src="{% static "assets/js/custom.js" %}"></script>
+    <script src="{% static "assets/js/home.js" %}"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</body>
+
+</html>

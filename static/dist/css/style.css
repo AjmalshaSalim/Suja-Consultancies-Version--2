@@ -1,0 +1,351 @@
+.brand-link .brand-image {
+    float:none !important;
+    line-height: .8;
+    margin-left: .8rem;
+    margin-right: .5rem;
+    margin-top: -3px;
+    max-height: 33px;
+    width: auto;
+}
+
+.dataTables_filter , #example1_paginate
+{
+   
+    float: right;
+}
+.upload
+{
+    width: 30%;
+}
+.next 
+{
+    float: right;
+}
+.profile-pic-wrapper {
+   
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-pic-wrapper1 {
+
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.pic-holder .pic1 {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+  }
+  .pic-holder {
+    text-align: center;
+    position: relative;
+    border-radius: 5%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .pic-holder .pic {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    position: absolute;
+  }
+  .pic-holder:hover .upload-file-block,
+.uploadProfileInput1:focus ~ .upload-file-block {
+  opacity: 1;
+}
+  .pic-holder .upload-file-block,
+  .pic-holder .upload-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(90, 92, 105, 0.7);
+    color: #f8f9fc;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+ 
+  .pic-holder .upload-file-block {
+    cursor: pointer;
+  }
+
+  .pic-holder:hover .upload-file-block,
+  .uploadProfileInput:focus ~ .upload-file-block {
+    opacity: 1;
+  }
+ 
+  .pic-holder.uploadInProgress .upload-file-block {
+    display: none;
+  }
+
+  .pic-holder.uploadInProgress .upload-loader {
+    opacity: 1;
+  }
+
+
+  .snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 14px;
+    transform: translateX(-50%);
+  }
+  
+  .snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  @-webkit-keyframes fadein {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 30px;
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadein {
+    from {
+      bottom: 0;
+      opacity: 0;
+    }
+    to {
+      bottom: 30px;
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {
+      bottom: 30px;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fadeout {
+    from {
+      bottom: 30px;
+      opacity: 1;
+    }
+    to {
+      bottom: 0;
+      opacity: 0;
+    }
+  }
+  .hello-1{
+  
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hello-2 {
+    text-align: center;
+    position: relative;
+    border-radius: 2%;
+    width:540px;
+    height:250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .hello-2 .hello-3 {
+    height: 100%;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    position: absolute;
+  }
+  
+  .hello-2 .hello-6,
+  .hello-2 .upload-loader {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(90, 92, 105, 0.7);
+    color: #f8f9fc;
+    font-size: 12px;
+    font-weight: 600;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+  }
+  
+  .hello-2 .hello-6 {
+    cursor: pointer;
+  }
+  
+  .hello-2:hover .hello-6,
+  .hello-4:focus ~ .hello-6 {
+    opacity: 1;
+  }
+  
+  .hello-2.uploadInProgress .hello-6 {
+    display: none;
+  }
+  
+  .hello-2.uploadInProgress .upload-loader {
+    opacity: 1;
+  }
+  .id-text {
+    font-family: Poppins;
+    width:60%;
+    float: right;
+}
+.display-text
+{
+    font-family: Poppins;
+    width:50%;
+    float: right;
+}
+#modal-broswer, #text-broswer
+{
+  text-align: -webkit-center !important;
+  text-align: -moz-center !important;
+
+}
+.modal-bg
+{
+  background-image: url("../img/background.jpg");
+}
+.status li 
+{
+  list-style-type: none;
+  display: inline;
+  margin: 0% 0px;
+}
+#table-profilePic
+{
+  /* height: 100%; */
+  background-size:contain;
+}
+
+/* //////////////////////// */
+.company-logo-container-client{
+  width:50px;
+  height:50px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+#table-profilePic{
+  height: 100% !important;
+  width: auto !important;
+}
+/* //////////////////////// */
+
+@media only screen 
+  and (min-device-width: 210px) 
+  and (max-device-width:320px)
+{
+  #table-profilePic
+{
+  width:50px;
+  height:50px;
+  border-radius: 100%;
+}
+
+
+ }
+ @media only screen 
+ and (min-device-width: 320px) 
+ and (max-device-width:480px)
+{
+  #table-profilePic
+{
+  width:50px;
+  height:50px;
+  border-radius: 100%;
+}
+
+
+}
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 620px)
+{
+  #table-profilePic
+  {
+    width:50px;
+    height:50px;
+    border-radius: 100%;
+  }
+  
+}
+@media only screen 
+  and (min-device-width:620px) 
+  and (max-device-width:720px)
+{
+  #table-profilePic
+{
+  width:50px;
+  height:50px;
+  border-radius: 100%;
+}
+
+  
+}
+@media only screen 
+ and (max-device-width:1024px)
+  {
+    #table-profilePic
+    {
+      width:50px;
+      height:50px;
+      border-radius: 100%;
+    }
+    
+}

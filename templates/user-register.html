@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/boxicon.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/fonts/flaticon/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/nice-select.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/register-page.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/home.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bg-img.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive-2.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    
+
+    <title>Suja Consultancies | Register Now</title>
+
+    <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.ico' %}">
+       <!-- Google Fonts  -->
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+       <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+       <style>
+           body, p, h2, h3, a, span, p, button, ::placeholder{
+       /* font-family: "Josefin Sans", sans-serif !important; */
+       font-family: "Comfortaa", sans-serif !important;
+   }
+   .btn-special{
+     background:#1b61a6 !important;
+     color: #fff !important;
+   }
+   .btn-special:hover{
+       background:#3186db !important; 
+   }
+  .img-h2, .bg-h3{
+    font-family: "Paytone One", sans-serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+       </style>
+</head>
+
+<body class="bg-div">
+    <div>
+    <div class="full-div reg-div">
+        <div class="container">
+            <div class="back-home"><a class="back-home-a" href="{% url 'ageis_app:index' %}"><i
+                        class="bi bi-house-up-fill back-home-icon text-dark"></i></a>
+                    </div>
+            <div class="row div-row">
+
+                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                    <div class="div-logo">
+                        <img class="frm-logo" src="{% static 'assets/images/suja.jpg' %}">
+                    </div>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61558492872249" target="_blank"><i class="bx bxl-facebook footer-social-icon-face"></i></a>
+                        <a href="#" target="_blank"><i class="bx bxl-instagram footer-social-icon-insta "></i></a>
+                        <a href="https://www.linkedin.com/in/ageis-recruitment-and-hr-consultancy-7b5574305/" target="_blank"><i class="bx bxl-linkedin footer-social-icon-linked"></i></a>
+                        <a href="https://wa.link/sws14o" target="_blank"><i
+                                class="bx bxl-whatsapp footer-social-icon-whatsapp "></i></a>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                    <form method="post" enctype='multipart/form-data'>
+                        {% csrf_token %}
+                                <h2 class="reg-h2">Register Now</h2>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="text" class="form-control form-control-3 "
+                                                    id="formGroupExampleInput" name='username' placeholder="Username" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="number" class="form-control form-control-3"
+                                                    id="formGroupExampleInput" name="phone" placeholder="Phone" required>
+                                            </div>
+
+                                        </div>  
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="text" class="form-control form-control-3 "
+                                                    id="formGroupExampleInput" name='first_name' placeholder="First name" required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="text" class="form-control form-control-3"
+                                                    id="formGroupExampleInput" name = 'last_name' placeholder="Last name" required>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="email" class="form-control form-control-3 "
+                                                    id="formGroupExampleInput" name='email' placeholder="Email"required>
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="text" class="form-control form-control-3 file"
+                                                    id="formGroupExampleInput" name='resume' placeholder="Upload resume" required>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="password" class="form-control form-control-3 "
+                                                    id="formGroupExampleInput" name="password" placeholder="Password"required>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+                                            <div class="col-frm">
+                                                <input type="password" class="form-control form-control-3 form-pass-icon-reg"
+                                                    id="password-reg" name="password2" placeholder="Confirm Password"required>
+                                                    <div class="password-icon-reg">
+                                                        <i class="bi bi-eye-fill" id="open-eye-reg"></i>
+                                                        <i class="bi bi-eye-slash-fill" id="close-eye-reg"></i>
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+                                <div>
+                                    <button type="submit" class="btn btn-special form-control-btn w-50">Register</button>
+                                </div>
+                           
+                         <div class="register-div">Already have an Account?<a class="reg-a" href="{% url 'ageis_app:login' %}"> Login </a></div>
+
+
+                    </form>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/profile.php?id=61558775116418" target="_blank"><i class="bx bxl-facebook footer-social-icon-face"></i></a>
+                <a href="https://www.instagram.com/ageis_recruitment_consultancy_?utm_source=qr&igsh=azRoNml4MGd0cG8x" target="_blank"><i class="bx bxl-instagram footer-social-icon-insta "></i></a>
+                <a href="https://www.linkedin.com/company/ageis-recruitment-and-hr-consultancy/" target="_blank"><i class="bx bxl-linkedin footer-social-icon-linked"></i></a>
+                <a href="https://wa.link/sws14o" target="_blank"><i
+                        class="bx bxl-whatsapp footer-social-icon-whatsapp "></i></a>
+            </div>
+            <!-- <div class="frm-login">
+                <div class="back-home"><a class="back-home-a" href="{% url 'ageis_app:index' %}"><i class="bi bi-house-up-fill back-home-icon"></i>HOME</a></div>
+            </div> -->
+        </div>
+
+    </div>
+
+    <!-- <section class="section-chat-box">
+        <div class="collapse" id="chat-box">
+            <div class="">
+                <div class="chat-box">
+                    <div class="card card-chat-box">
+                        <div class="header-chat">
+                            <div class="header-chat-box">
+                                <div class="logo-div-chat-box">
+                                    <img class="logo-chat-box" src="{% static 'assets/images/suja.jpg' %}">
+                                    <a href="#" class="close-btn-a"><i class="bi bi-x-square close-btn"></i></a>
+                                </div>
+                                <h2 class="h2-chat-box">Suja Consultancies ONLINE CHAT BOT</h2>
+                                
+                            </div>
+                        </div>
+                        <div class="middle-chat-box container">
+                            <span>Today</span>
+                            <div class="span-div-chat-box row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col">
+                                    <span class="span-chat-box">Hello Welcome</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time">2.30pm</span>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="span-div-chat-box-1 row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col-1">
+                                    <span class="span-chat-box-1">Hai</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time-1">2.30pm</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="footer-chat-box">
+                            <div class="footer-div-chat-box">
+                                <input class="footer-input-chat-box" type="text" placeholder="Chat with me">
+                                <a href="#" class=""><i class="material-icons footer-send-chat-box">send</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <a class="btn btn-whatsapp text-dark" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false"
+            aria-controls="collapseExample"><i class="bi bi-whatsapp chat-box-whtasapp "></i> Chat with us</a> -->
+    <!-- <a  class="connect-btn" href="{% url 'ageis_app:contact_us' %}"#letconnectus"><i class="bi bi-telephone-outbound me-3"></i>Let connect us</a>
+    </section>  -->
+    <!-- <script>
+
+        $(document).ready(function(){
+            $(".close-btn").click(function(){
+                $("#chat-box").hide();
+                // $(".btn-whatsapp").show();           
+             })
+             $(".btn-hello").click(function(){
+                // $(".btn-whatsapp").hide();
+                $("#chat-box").show();           
+             })
+        })
+    </script> -->
+    {% for message in messages %}
+    {% if message.tags == 'success' %}
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+    var m="{{message}}";
+    swal("{{message}}",'','success')
+    {% comment %} swal("Perfect!", m, "success") {% endcomment %}
+    </script>
+    {% else %}
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+    var m="{{message}}";
+    swal("{{message}}",'','error')
+    {% comment %} swal("Perfect!", m, "success") {% endcomment %}
+    </script>
+    {% endif %}
+    {% endfor %}
+    <script src="{% static 'assets/js/home.js' %}"></script>
+    <script>
+        $(document).ready(function(){
+            $(".file").focus(function(){
+                $(this).attr("type","file")
+            })
+        })
+    </script>
+    </div>
+</body>
+
+</html>

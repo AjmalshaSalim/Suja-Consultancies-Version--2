@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process Payment</title>
+</head>
+<body>
+    <h1>Process Payment</h1>
+    <p>Invoice ID: {{ invoice.id }}</p>
+    <p>Client: {{ invoice.client }}</p>
+    <p>Amount: {{ invoice.amount }}</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <!-- Add payment fields here -->
+        <label for="amount_paid">Amount Paid:</label>
+        <input type="text" id="amount_paid" name="amount_paid" required>
+        <br>
+        <label for="payment_date">Payment Date:</label>
+        <input type="date" id="payment_date" name="payment_date" required>
+        <br>
+        <button type="submit">Process Payment</button>
+    </form>
+</body>
+</html>

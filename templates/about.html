@@ -1,0 +1,966 @@
+<!doctype html>
+{% load static %}
+<html lang="zxx">
+
+<!-- Mirrored from templates.hibootstrap.com/jovie/default/{% url 'ageis_app:about_us' %} by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 10 Oct 2023 09:45:06 GMT -->
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.carousel.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/owl.theme.default.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/boxicon.min.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/fonts/flaticon/flaticon.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/magnific-popup.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/meanmenu.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/nice-select.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/dark.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/home.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/bg-img.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/responsive-2.css' %}">
+
+    <link rel="stylesheet" href="{% static 'assets/css/chat-box.css' %}">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <title>Suja Consultancies | About</title>
+
+    <link rel="icon" type="image/png" href="{% static 'assets/img/favicon.ico' %}">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+
+        <!-- Google Fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <style>
+        body, p, h3, a, span, p, button, ::placeholder{
+    /* font-family: "Josefin Sans", sans-serif !important; */
+    /* font-family: "Comfortaa", sans-serif !important; */
+    font-family: "Nunito Sans", sans-serif;
+}
+.btn-special{
+  background:#1b61a6 !important;
+  color: #fff !important;
+}
+.btn-special:hover{
+    background:#3186db !important; 
+}
+.img-h2, .bg-h3{
+    font-family: "Anton", sans-serif !important;
+    text-transform: uppercase !important;
+    letter-spacing: 1px !important;
+}
+
+.home-video-bg{
+    height:200px !important;
+}
+.d-table {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+}
+.page-title {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596); /* Black with 50% opacity */
+    z-index: 1;
+}
+
+.d-table-cell {
+    position: relative;
+    z-index: 2; /* Ensures the text is above the overlay */
+}
+
+.img-h2, .bg-h3, .bb, .text-light {
+    color: white; /* Ensure the text is visible over the dark overlay */
+}
+h2, h3, h5 {
+            margin: 0;
+            padding-bottom: 15px;
+        }
+
+        p {
+            margin: 0 0 15px;
+        }
+
+
+
+        /* Banner Section */
+        .banner-section {
+            position: relative;
+            background-image: url(../static/assets/bg-video/AboutUsBanner.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 10% !important;
+            color: #fff;
+        }
+
+        .banner-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        .banner-content {
+            position: relative;
+            z-index: 1;
+            display: table;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+        }
+        .d-table {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+}
+.page-title {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596); /* Black with 50% opacity */
+    z-index: 1;
+}
+
+.d-table-cell {
+    position: relative;
+    z-index: 2; /* Ensures the text is above the overlay */
+}
+        .banner-content .table-cell {
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .banner-content h2 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .banner-content h3 {
+            font-size: 24px;
+        }
+
+        .breadcrumb {
+            margin-top: 20px;
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .breadcrumb li {
+            margin: 0 10px;
+        }
+
+        .breadcrumb li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 100px 0;
+        }
+
+        .about-section h2 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .about-card {
+    border-left: 5px solid #3186db;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+        .about-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .about-card h5 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        /* Vision & Mission Section */
+        .vm-section {
+            padding: 100px 0;
+            background-color: #f4f4f4;
+            background-image: url(../static/assets/images/Missions2.jpg);
+            background-size:contain;
+        }
+
+        .vm-card {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .vm-card h5 {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            .about-card, .vm-card, .testimonial-card {
+                margin-bottom: 30px;
+            }
+
+            .banner-content h2 {
+                font-size: 36px;
+            }
+
+            .banner-content h3 {
+                font-size: 18px;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .banner-content h2 {
+                font-size: 28px;
+            }
+
+            .banner-content h3 {
+                font-size: 16px;
+            }
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="loader-content">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="sk-circle">
+                    <div class="sk-circle1 sk-child"></div>
+                    <div class="sk-circle2 sk-child"></div>
+                    <div class="sk-circle3 sk-child"></div>
+                    <div class="sk-circle4 sk-child"></div>
+                    <div class="sk-circle5 sk-child"></div>
+                    <div class="sk-circle6 sk-child"></div>
+                    <div class="sk-circle7 sk-child"></div>
+                    <div class="sk-circle8 sk-child"></div>
+                    <div class="sk-circle9 sk-child"></div>
+                    <div class="sk-circle10 sk-child"></div>
+                    <div class="sk-circle11 sk-child"></div>
+                    <div class="sk-circle12 sk-child"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <nav-2>
+        <div class="full-nav">
+            <div class="container div-container">
+                <div class="nav-phn">
+                <a class="phn-a" href="tel:+91 9846825699"><i class="bi bi-telephone-outbound-fill nav-social-call"></i>+91 9846825699</a>
+                </div>
+                <div class="nav-mail-comb">
+                    <div class="nav-mail">
+                        <a class="email-a" href="mailto:info@sujaconsultancies.in"><i class="bi bi-envelope-at-fill nav-social-email"></i>info@sujaconsultancies.in</a>
+                        <!-- <p class="nav-welcome-text">Welcome to Suja Consultancies: Empowering Talent, Enhancing Companies. Step into
+                            excellence with us.</p> -->
+
+                    </div>
+                    <div class="nav-social">
+                    <ul class="nav-social-ul" type="none">
+                        <li class="nav-social-name"><a  class="nav-social-a" href="https://wa.link/sws14o"><i class="bi bi-whatsapp nav-social-whats"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-instagram nav-social-insta"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-linkedin nav-social-linked"></i></a></li>
+                        <li class="nav-social-name"><a  class="nav-social-a" href=""><i class="bi bi-facebook nav-social-face"></i></a></li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </nav-2>
+    <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-lg">
+        <div class="container">
+            <a class="navbar-brand brand-logo-a" href="/"><img class="brand-logo"
+                    src="{% static 'assets/images/suja-logo.png'  %}"></a>
+            <div class="nav-bar-align">
+
+            </div>
+            <div class="collapse navbar-collapse div-ul-nav" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'ageis_app:index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:about_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:jobs_frontend' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:clients' %}">Clients</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="{% url 'ageis_app:contact_us' %}" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                    <form action="{% url 'ageis_app:job_search' %}" method="GET">
+                        <div class="nav-search-box" style="width: 250px; height: 40px; background: #fff; display: flex; border: 1px solid #00000024; border-radius: 5px; margin-left: 25px;">
+                            <input type="text" name="title" class="nav-search-input" placeholder="Search" style="border:none; margin-left:5px; outline:none; flex: 1;">
+                            <button type="submit" style="background:none; border:none; padding:0;">
+                                <img src="../static/assets/icons/search.png" alt="Search" style="width:20px; height:20px; margin-top:7px; margin-left:7px; margin-right: 7px; margin-bottom: 7px;">
+                            </button>
+                        </div>
+                    </form>
+                </ul>
+                <!-- <div class="chat-box" id="chat-box">
+                    <div class="chat-box-head">
+
+                        <img class="logo-chat-box-1" src="{% static 'assets/images/suja.jpg' %}">
+
+                        <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                        <div id="close-btn"><i class="bi bi-x-square chat-close"></i></div>
+                    </div>
+                    <div class="chat-box-middle">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="chat">
+                                        <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-box-footer">
+                        <input type="text" class="form-control w-75" id="chat-input" placeholder="Chat with me">
+                        <div id="send-it"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+                    </div>
+                    <div>
+                    </div>
+
+
+                </div> -->
+                <a class=" btn-hello " id="chatwithus">
+                    <div class="chat-toggle-container">
+                        <img class="chat toggle-icon" src="../static/assets/icons/whatsapp.png" alt="">
+                    </div>
+                </a>
+                {% if not user.is_authenticated %}
+                <div class="nav-item" style="margin-bottom: 15px;">
+                    <a class="nav-link log-color" href="{% url 'ageis_app:login' %}"><button style="background: #3186db; padding-top: 5px; padding-bottom:5px; padding-left: 10px; padding-right: 10px; color: #fff;"> Sign In</button></a>
+                </div>
+                {% else %}
+                <div>
+                    <ul class="logout-ul" type="none">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <!-- <i class="bi bi-person-circle"></i> -->
+                                 <div style="height: 100%; width: 40px; margin-top:-13%; padding-left: 20px;">
+                                    
+                                    {% if user.profile_photo %}
+                                    <img src="{{ user.profile_photo.url }}" style="width: 40px; height:40px; bottom:15px;">
+                                   {% else %}
+                                   <img src="../static/assets/icons/profile.png" alt="" style="width: 40px; height:40px; bottom:15px;">
+                                   {% endif %}
+                                 </div>
+                                 
+                            </a>
+                            {% if user.is_authenticated and not user.is_superuser %}
+                            <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:user_profile' %}">{{user.username}}</a></li>
+                                {%if user.extenedusermodel.phone%}
+                                <li><a class="dropdown-item ">{{user.extenedusermodel.phone}}</a></li>
+                                {% endif %}
+                                <li><a class="dropdown-item ">{{user.email}}</a></li>
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a></li>
+                            </ul>
+                            {% else %}
+                            <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a></li>
+                            </ul>
+                            {% endif %}
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    {% endif %}
+
+                </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg  container-fluid container-1 sticky-top nav-mob">
+        <div class="container">
+            <a class="navbar-brand brand-logo-a" href="/"><img class="brand-logo"
+                    src="{% static 'assets/images/suja-logo.png'  %}"></a>
+            <div class="nav-width">
+                <ul class="navbar-nav navbar-nav-1">
+                    <!-- <li class="nav-item">
+                        <a class="nav-link btn-hello " id="chat-with-us">
+                            Chat with Us</a>
+                    </li> -->
+                    <li class="nav-item">
+                        {% if not user.is_authenticated %}
+                        <div class="nav-item" style=" text-align: right;">
+                            <a class="nav-link log-color" href="{% url 'ageis_app:login' %}" style=""> <button style="background: #3186db; padding: 10px; color: #fff;"> Sign In</button></a>
+                        </div>
+                        {% else %}
+                        <div>
+                            <ul class="logout-ul" type="none">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link " href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="bi bi-person-circle"></i>
+                                    </a>
+                                    {% if user.is_authenticated and not user.is_superuser %}
+                                    <ul class="dropdown-menu dropdown-bg drop-log-bg" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item">{{user.username}}</a></li>
+                                        <li><a class="dropdown-item ">{{user.extenedusermodel.phone}}</a></li>
+                                        <li><a class="dropdown-item ">{{user.email}}</a></li>
+                                        <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a>
+                                        </li>
+                                    </ul>
+                                    {% else %}
+                                    <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="{% url 'ageis_app:logout' %}">Log out</a>
+                                        </li>
+                                    </ul>
+                                    {% endif %}
+                                </li>
+
+
+
+                            </ul>
+                        </div>
+                        <div>
+                            {% endif %}
+                    </li>
+                    <li class="nav-item toogle-icon-div" style="margin-top: 5px;">
+                        <a href="#" class="toogle-icon-a"><i class="bi bi-list" style="font-size: 30px;"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="chat-box" id="chat-box-mob">
+                <div class="chat-box-head">
+
+                    <img class="logo-chat-box-1" src="{% static 'assets/images/suja.jpg' %}">
+
+                    <h4 class="chat-h4">Chat with Suja Consultancies</h4>
+                    <div id="close-btn-mob"><i class="bi bi-x-square chat-close"></i></div>
+                </div>
+                <div class="chat-box-middle">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="chat">
+                                    <p class="chat-para">You can talk to me about our platform,Let's chat!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat-box-footer">
+                    <input type="text" class="form-control w-75" id="chat-input-mob" placeholder="Chat with me">
+                    <div id="send-it-mob"><i class="bi bi-arrow-right-circle-fill chat-send"></i></div>
+                </div>
+            </div> -->
+        </div>
+        <div class="toogle-div">
+            <div class="close-icon-div">
+                <a href="#" class="close-icon-a"><i class="bi bi-x-circle close-icon"></i></a>
+            </div>
+            <div>
+                <ul type="none">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="{% url 'ageis_app:index' %}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:about_us' %}">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:jobs_frontend' %}">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:clients' %}">Clients</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu dropdown-bg" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:resume_writing' %}">Resume Writing</a></li>
+                            <li><a class="dropdown-item dropdown-link"
+                                    href="{% url 'ageis_app:interviewtips' %}">Interview Tips</a></li>
+                        </ul>
+                    </li>
+                    {% comment %} <li class="nav-item">
+                        <a class="nav-link" href="{% url 'ageis_app:blogs' %}">Blog</a>
+                    </li> {% endcomment %}
+                    <li class="nav-item">
+                        <a href="{% url 'ageis_app:contact_us' %}" class="nav-link">
+                            Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </nav>
+     
+ <!-- Banner Section -->
+<section class="page-title title-bg23 banner-bg-11" style="height: 600px; background-image: url(../static/assets/bg-video/About-Us.jpg);">
+    <div class="overlay"></div> <!-- Black overlay -->
+    <!-- <div class="home-video-bg">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="{% static 'assets/bg-video/contactUs.mp4' %}" type="video/mp4">
+        </video>
+    </div> -->
+    <div class="d-table">
+        <div class="d-table-cell">
+            <h2 class="img-h2">About Us</h2>
+            <h3 class="bg-h3">"Connecting Talent with <span class="font-color">Opportunity</span>"</h3>
+            <ul>
+                <li>
+                    <a href="{% url 'ageis_app:index' %}">Home</a>
+                </li>
+                <li>About Us</li>
+            </ul>
+        </div>
+    </div>
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+</section>
+<!-- About Section -->
+<section class="about-section">
+    <div class="container">
+        <h2>How We Started</h2>
+        <div class="about-card">
+            <h5>Our Journey</h5>
+            <p><b>Suja Consultancies and HR Consultancy</b> is a start-up platform for talented individuals, established in 2022 in Kerala. We aim to exceed our customers' and clients' expectations by offering expert consultation, services, and solutions in human resource policies, focusing on emerging markets.</p>
+        </div>
+        <div class="about-card">
+            <h5>Our Reach</h5>
+            <p>With a commitment to serving all over India, <b>Suja Consultancies</b> aims to be a leading talent acquisition firm, providing comprehensive HR solutions across various domains to enhance organizational growth.</p>
+        </div>
+        <div class="about-card">
+            <h5>Our Commitment</h5>
+            <p>We are dedicated to the fair selection and development of a diverse workforce, aiming to build brighter futures by turning ideas into action and sparking positive change.</p>
+        </div>
+        <div class="about-card">
+            <h5>Embracing Remote Work</h5>
+            <p>We are transitioning to a 100% remote process, collaborating with remote recruiters and utilizing crowd staffing, the most effective recruitment method in the market, to hire the right talent for the right purpose.</p>
+        </div>
+        <div class="about-card">
+            <h5>Client-Centric Approach</h5>
+            <p>We cater to a wide range of staffing needs, from top management positions to junior-level hiring, offering tailored packages to suit businesses of all sizes, without compromising on quality but at affordable prices.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Vision & Mission Section -->
+<section class="vm-section">
+    <div class="container">
+        <div class="row">
+          
+            <div class="col-md-6">
+                <div class="vm-card">
+                    <h5><i class="fa-solid fa-users" style="font-size:xx-large;"></i> &nbsp;&nbsp;Our Vision</h5>
+                    <p>To emerge as a preferred partner in Consulting, Talent Acquisition, and HR Practice, providing quality HR solutions that add value to our clients and customers.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="vm-card">
+                    <h5><i class="fa-solid fa-bullseye" style="font-size:xx-large;"></i> &nbsp;&nbsp;Our Mission</h5>
+                    <p>To provide HR consulting for emerging companies, committed to the fair selection and development of a diverse workforce, paving the way for change in the labor market.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Counts -->
+<div class="counter-section pt-100 pb-70" style="margin-top: 100px;">
+        <div class="container">
+            <div class="row counter-area">
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-resume"></i>
+                        <h2><span class="counter-span">{{job_posted_count}}</span></h2>
+                        <p>Job Posted</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-recruitment"></i>
+                        <h2><span class="counter-span">{{applied_jobs_count}}</span></h2>
+                        <p>Applied Jobs</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-portfolio"></i>
+                        <h2><span class="counter-span">{{company_count}}</span></h2>
+                        <p>Company</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6">
+                    <div class="counter-text">
+                        <i class="flaticon-employee"></i>
+                        <h2><span class="counter-span">{{members_count}}</span></h2>
+                        <p>Members</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+<!-- Counts -->
+
+
+  
+
+<footer class="footer-area pt-100 pb-70 bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                <div class="footer-widget">
+                    <div class="footer-logo">
+                        <a href="{% url 'ageis_app:index' %}">
+                                <img class="logo-footer" src="{% static 'assets/images/suja.jpg' %}" alt="logo">
+                            </a>
+                    </div>
+                    <p class="text-dark brand-quoete text-center"><i>We make Recruitment enjoyable,
+                            efficient,enagaging! Let’s create
+                            “Success Together"</i></p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/profile.php?id=61558492872249" target="_blank"><i class="bx bxl-facebook footer-social-icon-face"></i></a>
+                        <a href="#" target="_blank"><i class="bx bxl-instagram footer-social-icon-insta "></i></a>
+                        <a href="https://www.linkedin.com/in/ageis-recruitment-and-hr-consultancy-7b5574305/" target="_blank"><i class="bx bxl-linkedin footer-social-icon-linked"></i></a>
+                        <a href="https://wa.link/sws14o" target="_blank"><i
+                                class="bx bxl-whatsapp footer-social-icon-whatsapp "></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                <div class="footer-widget pl-60">
+                    <h3 class="text-dark">For Candidate</h3>
+                    <ul>
+                        <li>
+                            <a href="job-grid.html">
+                                <a class="text-dark" href="{% url 'ageis_app:resume_writing' %}">
+                                    <i class="bx bx-chevrons-right bx-tada"></i>
+                                    Resume writing
+                                </a>
+                        </li>
+                        <!-- <li>
+                            <a class="text-dark" href="internship.html">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Internship
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="Aboardstudy.html">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Aboard study
+                            </a>
+                        </li> -->
+                        <li>
+                            <a class="text-dark" href="{% url 'ageis_app:interviewtips' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Interview Tips
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                <div class="footer-widget pl-60">
+                    <h3 class="text-dark">Quick Links</h3>
+                    <ul>
+                        <li>
+                            <a class="text-dark" href="{% url 'ageis_app:index' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="{% url 'ageis_app:about_us' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                About Us
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="{% url 'ageis_app:jobs_frontend' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Jobs
+                            </a>
+                        </li>
+                        <li>
+                            <a class="text-dark" href="{% url 'ageis_app:clients' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Clients
+                            </a>
+                        </li>
+                        {% comment %} <li>
+                            <a class="text-dark" href="{% url 'ageis_app:blogs' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Blog
+                            </a>
+                        </li> {% endcomment %}
+                        <li>
+                            <a class="text-dark" href="{% url 'ageis_app:contact_us' %}">
+                                <i class="bx bx-chevrons-right bx-tada"></i>
+                                Contact Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+                <div class="footer-widget footer-info">
+                    <h3 class="text-dark">Information</h3>
+                    <ul>
+                        <li>
+                            <span class="text-dark contact-detail"><i class="bx bxs-phone"></i>Phone:</span><a
+                                class="text-dark contact-detail" href="tel:+919846825699">+91 9846825699
+                                </a><br>
+                            <a class="text-dark contact-detail" href="tel:+918848762481">+91 8848762481</a>
+                        </li>
+                        <li>
+                            <span class="text-dark contact-detail"><i class='bx bxs-envelope'></i>Email:</span><a
+                                class="text-dark contact-detail"
+                                href="mailto:info@sujaconsultancies.in">info@sujaconsultancies.in</a>
+                        </li>
+
+                        <li>
+                            <span class="text-dark contact-detail">
+                                <i class="bx bx-location-plus"></i>
+                                Address:
+                            </span>
+                            <ul>
+                                <li class="text-dark contact-detail">
+                                    Sector 18A. Plot No. 98.
+                                </li>
+                                <li class="text-dark contact-detail">
+                                    Nerul west. Navi Mumbai,
+                                </li>
+                                <li class="ps-0 text-dark contact-detail">
+                                    Maharashtra 4000706
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <div class="copyright-text text-center">
+        <div class="footer-2">
+            <div class="footer-section-2">
+                <a class="footer-sec2-a" href="disclaimer.html">Disclaimer</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="terms.html">Terms and Conditions</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="faq.html">FAQ</a>
+                <span>|</span>
+                <a class="footer-sec2-a" href="privacy.html">Privacy and policy</a>
+            </div>
+        </div>
+ <p>Copyright © 2024<a href="https://trivlogic.com/" class="copyright-text-a"
+                target="_blank">Trivlogic Pvt Ltd.</a> All rights reserved.</p>
+    </div>
+
+    <section class="section-chat-box">
+        <div class="collapse" id="chat-box">
+            <div class="">
+                <div class="chat-box">
+                    <div class="card card-chat-box">
+                        <div class="header-chat">
+                            <div class="header-chat-box">
+                                <div class="logo-div-chat-box">
+                                    <img class="logo-chat-box" src="{% static 'assets/images/suja.jpg' %}">
+                                    <a href="#" class="close-btn-a"><i class="bi bi-x-square close-btn"></i></a>
+                                </div>
+                                <h2 class="h2-chat-box">Suja Consultancies ONLINE CHAT BOT</h2>
+                                
+                            </div>
+                        </div>
+                        <div class="middle-chat-box container">
+                            <span>Today</span>
+                            <div class="span-div-chat-box row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col">
+                                    <span class="span-chat-box">Hello Welcome</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time">2.30pm</span>
+                                    </div>
+    
+                                </div>
+                            </div>
+                            <div class="span-div-chat-box-1 row">
+                                <div class="col-12 col-lg-12 col-xl-6 col-xxl-6 col-md-12 col-sm-12 chat-box-col-1">
+                                    <span class="span-chat-box-1">Hai</span>
+                                    <div class="d-flex justify-content-end">
+                                        <span class="span-chat-box-time-1">2.30pm</span>
+                                    </div>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="footer-chat-box">
+                            <div class="footer-div-chat-box">
+                                <input class="footer-input-chat-box" type="text" placeholder="Chat with me">
+                                <a href="#" class=""><i class="material-icons footer-send-chat-box">send</i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <a class="btn btn-whatsapp text-dark" data-bs-toggle="collapse" href="#" role="button" aria-expanded="false"
+            aria-controls="collapseExample"><i class="bi bi-whatsapp chat-box-whtasapp "></i> Chat with us</a> -->
+             {% comment %} <a  class="connect-btn" href="{% url 'ageis_app:contact_us' %}"#letconnectus"><i class="bi bi-telephone-outbound me-3"></i>Let connect us</a> {% endcomment %}
+    </section>
+
+    <div class="top-btn">
+        <i class="bx bx-chevrons-up bx-fade-up"></i>
+    </div>
+
+
+    {% comment %} <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js' %}"></script> {% endcomment %}
+    <script src="{% static 'assets/js/jquery.min.js' %}"></script>
+    <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/jquery.nice-select.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/jquery.magnific-popup.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/jquery.ajaxchimp.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/form-validator.min.js' %}"></script>
+
+    <script src="{% static 'assets/js/contact-form-script.js' %}"></script>
+
+    <script src="{% static 'assets/js/meanmenu.js' %}"></script>
+
+    <script src="{% static 'assets/js/custom.js' %}"></script>
+    <script src="{% static 'assets/js/home.js' %}"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".close-btn").click(function(){
+                $("#chat-box").hide();
+                $(".btn-whatsapp").show();           
+             })
+             $(".btn-whatsapp").click(function(){
+                $(".btn-whatsapp").hide();
+                $("#chat-box").show();           
+             })
+        })
+    </script>
+     <script>
+        // Initialize Swiper (Assuming Swiper.js is included in your project)
+        const swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                },
+                768: {
+                    slidesPerView: 2,
+                },
+                1024: {
+                    slidesPerView: 3,
+                },
+            },
+        });
+    </script>
+     <script>
+        $(document).ready(function(){
+            $(".toogle-icon-a").click(function(){
+                $(".toogle-icon").hide();
+                $(".toogle-div").animate({right:"0px"});
+            })
+            $(".close-icon-a").click(function(){
+                $(".toogle-icon").show();
+                $(".toogle-div").animate({right:"-300px"});
+            })
+        })
+      </script>
+
+</body>
+
+</html>

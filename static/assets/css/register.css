@@ -1,0 +1,166 @@
+.frm-login,.frm-login-1{
+    /* border: 1px solid #1b61a6; */
+    border-radius: 10px;
+    width: 41%;
+    text-align: center;
+    background-color: transparent;
+    }
+    body{
+        background-color: #FFFBFC;
+       }
+.reg-h2{
+        text-align: center;
+        opacity: 50%;
+        margin-top: 8%;
+        margin-bottom: 8%;
+        font-family:'Poppins',sans-serif;
+        font-weight: 500;
+    }
+    .password-icon{
+        position: relative;
+        bottom: 32px;
+        left: 110px;
+    }
+.frm-logo{
+    width: 27%;
+    text-align: center;
+    margin-top: 10%;
+}
+.bg-div {
+    background-image: url('../bg-video/suja-abstract.png');
+    background-size: cover;
+    margin-top: -50px;
+}
+.form-control-1{
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-control-btn{
+    margin-top: 5%;
+    text-align: center;
+}
+.frm-login{
+    margin-left:28%;
+    margin-top: 0%;
+    padding-bottom: 5%;
+}
+.frm-login-1{
+    margin-left:28%;
+    margin-top: 10%;
+    padding-bottom: 5%;
+}
+body{
+    overflow: hidden;
+}
+.reg-a{
+    color: #1b61a6;
+}
+.reg-a:hover{
+    color: #3186db;
+}
+.register-div{
+    margin-top: 5%;
+    color: black;
+}
+.register-div-1{
+    margin-top: 5%;
+    color: black;
+}
+input:focus{
+    outline: none;
+    box-shadow:1px 2px 3px 10px #fc3e09;
+}
+.back-home-icon{
+    font-size: x-large;
+    border: 1px solid #00000015;
+    padding: 10px;
+    border-radius: 20%;
+
+}
+.back-home-icon:hover{
+    box-shadow:1px 2px 3px 2px #0000003f;
+}
+
+/* responsive */
+@media screen and (max-width: 800px) and (min-width:  700px) {
+    .frm-login {
+        font-size: small;
+        
+      }
+      .form-control-1 ,.form-control-btn{
+        font-size: smaller;
+      }
+   
+}
+@media screen and (max-width: 700px) and (min-width:  600px) {
+    .frm-login {
+        font-size: x-small;
+    }
+      .form-control-1 ,.form-control-btn{
+        font-size: x-small !important;
+      }
+   
+}
+@media screen and (max-width: 600px) and (min-width:  500px) {
+    .frm-login {
+        margin-left: 0%;
+        width: 100%;
+        font-size: x-small;
+        padding: 2%;
+        padding-bottom: 50%;
+      }
+      .form-control-1 ,.form-control-btn{
+        margin-top: 5%;
+        text-align: center;
+   
+        font-size: x-small;
+      }
+}
+@media screen and (max-width: 500px) and (min-width:  400px) {
+    .frm-login {
+        margin-left: 0%;
+        font-size: x-small;
+        padding: 2%;
+        padding-bottom: 50%;
+        width: 100%;
+      }
+      .form-control-1 ,.form-control-btn{
+        margin-top: 5%;
+        text-align: center;
+     
+        font-size: x-small;
+      }
+   
+}
+@media screen and (max-width: 400px) and (min-width:  300px) {
+    .frm-login {
+        margin-left: 0%;
+        font-size: x-small;
+        padding: 2%;
+        padding-bottom: 50%;
+        width: 100%;
+      }
+      .form-control-1 ,.form-control-btn{
+        margin-top: 5%;
+        text-align: center;
+     
+        font-size: x-small;
+      }
+   
+}
+@media screen and (max-width: 300px) and (min-width:  200px) {
+    .frm-login {
+        margin-left: 0%;
+        font-size: x-small;
+        padding: 2%;
+        padding-bottom: 50%;
+        width: 100%;
+      }
+      .form-control-1 ,.form-control-btn{
+        margin-top: 5%;
+        text-align: center;
+        font-size: x-small;
+      }
+}

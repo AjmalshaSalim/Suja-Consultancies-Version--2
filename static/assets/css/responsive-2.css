@@ -1,0 +1,3939 @@
+@media screen and (min-width: 1900px) and (max-width:2000px) {
+    .footer-social {
+        margin-left: 16% !important;
+    }
+
+    .find-job {
+        margin-top: 19% !important;
+    }
+
+    .find-form {
+        margin-top: -5% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+
+    .close-btn-a {
+        top: 24% !important;
+        left: 90% !important;
+    }
+
+    .card-chat-box {
+        width: 248% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1800px) and (max-width:1900px) {
+    .footer-social {
+        margin-left: 16% !important;
+    }
+
+    .find-job {
+        margin-top: 16% !important;
+    }
+
+    .find-form {
+        margin-top: -5% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+
+    .close-btn-a {
+        top: 24% !important;
+        left: 90% !important;
+    }
+
+    .card-chat-box {
+        width: 234% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1700px) and (max-width:1800px) {
+    .footer-social {
+        margin-left: 16% !important;
+    }
+
+    .find-job {
+        margin-top: 12% !important;
+    }
+
+    .find-form {
+        margin-top: -5% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+
+    .close-btn-a {
+        top: 24% !important;
+        left: 90% !important;
+    }
+
+    .card-chat-box {
+        width: 224% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1600px) and (max-width:1700px) {
+    .footer-social {
+        margin-left: 16% !important;
+    }
+
+    .find-job {
+        margin-top: 7% !important;
+    }
+
+    .find-form {
+        margin-top: -5% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+
+    .close-btn-a {
+        top: 24% !important;
+        left: 90% !important;
+    }
+
+    .card-chat-box {
+        width: 212% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .companies-h5{
+        font-size: 120%;
+    }
+    .companies-p{
+        font-size: 60%;
+    }
+}
+
+@media screen and (min-width: 1500px) and (max-width:1600px) {
+    .footer-social {
+        margin-left: 16% !important;
+    }
+
+    .find-job {
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: -5% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        width: 60%;
+    }
+
+    .close-btn-a {
+        top: 23% !important;
+        left: 90% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .companies-h5{
+        font-size: 115%;
+    }
+    .companies-p{
+        font-size: 60%;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width:1500px) {
+    .footer-social {
+        margin-left: 0% !important;
+    }
+
+    .find-job {
+        margin-top: 0% !important;
+    }
+
+    .find-form {
+        margin-top: -5% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        width: 58%;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .companies-h5{
+        font-size: 110%;
+    }
+    .companies-p{
+        font-size: 60%;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 1300px) {
+    .find-job {
+        margin-top: 16% !important;
+    }
+
+    .find-form {
+        margin-top: -4% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .carosel-head {
+        font-size: 250% !important;
+        margin-top: 5% !important;
+    }
+
+    .close-btn-a {
+        top: 23% !important;
+        left: 94% !important;
+    }
+
+    .footer-social {
+        margin-left: 0% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .companies-h5{
+        font-size: 108%;
+    }
+    .companies-p{
+        font-size: 60%;
+    }
+}
+@media screen and (max-width: 1300px) and (min-width: 1200px) {
+    .find-job {
+        margin-top: 16% !important;
+    }
+
+    .find-form {
+        margin-top: -10% !important;
+    }
+
+    .btn-whatsapp {
+        width: 13%;
+        left: 85% !important;
+    }
+
+    .carosel-head {
+        font-size: 250% !important;
+        margin-top: 5% !important;
+    }
+
+    .close-btn-a {
+        top: 23% !important;
+        left: 94% !important;
+    }
+
+    .footer-social {
+        margin-left: 0% !important;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .carousel-item-testimonial {
+        height:80vh;
+    }
+    .companies-h5{
+        font-size: 105%;
+    }
+    .companies-p{
+        font-size: 92%;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+    .carosel-head {
+        font-size: 250% !important;
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: -15% !important;
+        padding: 21px !important;
+    }
+    .connect-btn {
+        font-size: smaller;
+      }
+
+    .div-ul-nav {
+        width: 755%;
+    }
+
+    .find-job {
+        margin-top: 5% !important;
+    }
+
+    .brand-logo {
+        width: 63%;
+    }
+
+    .banner-img {
+        width: 33%;
+        margin-top: 5%;
+    }
+
+    .theme-btn {
+        margin-left: 28%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-social {
+        margin-left: 0%;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .banner-text h1 {
+        font-size: 224% !important;
+    }
+
+    .page-title h2 {
+        font-size: 210%;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 64% !important;
+    }
+
+    .close-btn-a {
+        position: fixed;
+        top: 24% !important;
+        left: 90% !important;
+    }
+
+    .btn-whatsapp {
+        font-size: 65%;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .company-logo {
+        margin-left: 41%;
+      }
+      .carousel-item-testimonial {
+        height:85vh;
+    }
+    .companies-h5{
+        font-size:103%;
+    }
+    .companies-p{
+        font-size: 85%;
+    }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 1000px) {
+    .carosel-head {
+        font-size: 165% !important;
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: -21% !important;
+        padding: 9px !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .find-job {
+        margin-top: 7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -10% !important;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 8px;
+        top: 55%;
+        left: 88%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .brand-logo-a {
+        width: 73%;
+    }
+
+    .brand-logo {
+        width: 82%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 44%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+    }
+    .nav-mob{
+        display: none;
+    }
+    .companies-h5{
+        font-size: 92% !important;
+    }
+    .companies-p{
+        font-size: 87% !important;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 900px) {
+    .carosel-head {
+        font-size: 245% !important;
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: 0% !important;
+        padding: 9px !important;
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 8px;
+        top: 55%;
+        left: 88%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .jobs {
+        font-size: 107%;
+    }
+
+    .row {
+        width: 107%;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 82%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 55%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 86%;
+    }
+
+    .list-interview {
+        font-size: 90%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+    .nav-lg{
+        display: none;
+    }
+    .navbar-nav-1{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+      }
+      .companies-h5{
+        font-size: 77%;
+    }
+    .companies-p{
+        font-size: 74%;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 800px) {
+    .carousel-item-testimonial {
+        height:30vh !important;
+    } 
+    .carosel-head {
+        font-size: 211% !important;
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: -11% !important;
+        padding: 9px !important;
+        width: 50%;
+        margin-left: 25%;
+
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 8px;
+        top: 55%;
+        left: 85%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .jobs {
+        font-size: 107%;
+    }
+
+    .row {
+        width: 107%;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 82%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 55%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 85%;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 90% !important;
+        top: 24% !important;
+    }
+
+    .list-interview {
+        font-size: 90%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+    .nav-lg{
+        display: none;
+    }
+    .navbar-nav-1{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+      }
+      .companies-h5{
+        font-size: 75%;
+    }
+    .companies-p{
+        font-size: 72%;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 700px) {
+    .testimonial-review{
+        font-size: 50% !important;
+    }
+    .carousel-item-testimonial {
+        height:22vh !important;
+    }
+    .carosel-head {
+        font-size: 255% !important;
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: -2% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 8px;
+        top: 55%;
+        left: 85%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .jobs {
+        font-size: 89%;
+    }
+
+    .row {
+        width: 107%;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 50%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 85% !important;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 90% !important;
+        top: 24% !important;
+    }
+
+    .list-interview {
+        font-size: 65%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+
+    .card-chat-box {
+        width: 181% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 80%;
+    }
+
+    .middle-chat-box {
+        height: 23vh;
+    }
+
+    .choose-card-p {
+        font-size: x-small;
+    }
+
+    .choose-card h3 {
+        font-size: medium !important;
+    }
+
+    .section-title h2 {
+        font-size: xx-large;
+    }
+
+    .full-nav {
+        font-size: xx-small;
+    }
+    .companies-h5{
+        font-size: 65%;
+    }
+    .companies-p{
+        font-size: 61%;
+    }
+    .companies-img {
+        width: 56%;
+      }
+    .card-com{
+        width: 91%;
+    }
+    .connect-h3 {
+        font-size: large !important;
+      }
+    .back-video {
+        top: 91px;
+    }
+    .job-card-two{
+        margin-left: -1%;
+       }
+       .logo-footer {
+        width: 28%;
+      }
+      .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 100% !important;
+    }
+    .nav-lg{
+        display: none;
+    }
+    .navbar-nav-1{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+      }
+}
+
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .testimonial-review{
+        font-size: 45% !important;
+    }
+    .carousel-item-testimonial {
+        height:30vh !important;
+    }
+
+    .carosel-head {
+        font-size: 200% !important;
+        margin-top: 5% !important;
+    }
+
+    .find-form {
+        margin-top: -12% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 8px;
+        top: 55%;
+        left: 80%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .jobs {
+        font-size: 89%;
+    }
+
+    .row {
+        width: 107%;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 50%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 15%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 90% !important;
+        top: 24% !important;
+    }
+
+    .list-interview {
+        font-size: 65%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+
+    .card-chat-box {
+        width: 181% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 80%;
+    }
+
+    .middle-chat-box {
+        height: 23vh;
+    }
+
+    .choose-card-p {
+        font-size: x-small;
+    }
+
+    .choose-card h3 {
+        font-size: medium !important;
+    }
+
+    .section-title h2 {
+        font-size: xx-large;
+    }
+
+    .full-nav {
+        font-size: xx-small;
+    }
+    .companies-h5{
+        font-size: 59%;
+    }
+    .companies-p{
+        font-size: 54%;
+    }
+    .companies-img {
+        width: 56%;
+      }
+    .card-com{
+        width: 110%;
+    }
+    .connect-h3 {
+        font-size: large !important;
+      }
+    .back-video {
+        top: 91px;
+    }
+    .job-card-two{
+        margin-left: -1%;
+       }
+       .logo-footer {
+        width: 28%;
+      }
+      .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 100% !important;
+    }
+    .nav-lg{
+        display: none;
+    }
+    .navbar-nav-1{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+      }
+}
+
+@media screen and (max-width: 600px) and (min-width: 500px) {
+    .testimonial-review{
+        font-size: 40% !important;
+    }
+    .carousel-item-testimonial {
+        height:23vh !important;
+    }
+    .carosel-head {
+        font-size: 177% !important;
+        margin-top: 5% !important;
+    }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+
+    .find-form {
+        margin-top: -22% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 9px;
+        padding-right: 8px;
+        top: 55%;
+        left: 80%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 86%;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 46%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 15%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 82% !important;
+        top: 234 !important;
+    }
+
+    .list-interview {
+        font-size: 65%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+
+    .card-chat-box {
+        width: 134% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 80%;
+    }
+
+    .middle-chat-box {
+        height: 20vh !important;
+    }
+
+    .choose-card-p {
+        font-size: x-small;
+    }
+
+    .choose-card h3 {
+        font-size: medium !important;
+    }
+
+    .section-title h2 {
+        font-size: xx-large;
+    }
+
+    .full-nav {
+        font-size: xx-small;
+    }
+    .companies-h5{
+        font-size: 54%;
+    }
+    .companies-p{
+        font-size: 50%;
+    }
+    .companies-img {
+        width: 48%;
+      }
+    .card-com{
+        width: 110%;
+    }
+    .connect-h3 {
+        font-size: large !important;
+      }
+    .back-video {
+        top: 91px;
+    }
+    .job-card-two{
+        margin-left: 5%;
+       }
+       .logo-footer {
+        width: 28%;
+      }
+      .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 107% !important;
+    }
+    .nav-lg{
+        display: none;
+    }
+    .navbar-nav-1{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+      }
+}
+
+@media screen and (max-width: 500px) and (min-width: 400px) {
+    .testimonial-review{
+        font-size: 38% !important;
+    }
+    .carousel-item-testimonial {
+        height:17vh !important;
+    }
+    .carosel-head {
+        font-size: 62% !important;
+        margin-top: 5% !important;
+    }
+
+    .nav-link {
+        font-size: x-small !important;
+    }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+
+    .find-form {
+        margin-top: -65% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 109%;
+    }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        top: 55%;
+        left: 80%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 64%;
+    }
+
+    .category-card p {
+        font-size: x-small !important;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 42%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 17%;
+    }
+
+    .carosel-head {
+        font-size: 133% !important;
+        margin-top: 5% !important;
+    }
+
+    .nav-link {
+        font-size: x-small !important;
+    }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+
+    .find-form {
+        margin-top: -35% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 109%;
+    }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        top: 55%;
+        left: 80%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 64%;
+    }
+
+    .category-card p {
+        font-size: x-small !important;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+    .navbar-brand {
+        margin-right: 1rem;
+      }
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 42%;
+    }
+
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 17%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .me-3 {
+        margin-right: 0.5rem !important;
+
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 82% !important;
+        top: 234 !important;
+    }
+
+    .list-interview {
+        font-size: 65%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+
+    .card-chat-box {
+        width: 134% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 80%;
+    }
+
+    .middle-chat-box {
+        height: 20vh !important;
+    }
+
+    .choose-card-p {
+        font-size: x-small;
+    }
+
+    .choose-card h3 {
+        font-size: medium !important;
+    }
+
+    .section-title h2 {
+        font-size: x-large;
+    }
+
+    .full-nav {
+        font-size: xx-small;
+    }
+
+    .city-name {
+        font-size: 60%;
+    }
+
+    .copyright-text p {
+        font-size: 85% !important;
+    }
+
+    .footer-section-2 {
+        font-size: xx-small;
+    }
+
+    .bg-h3 {
+        font-size: 134% !important;
+    }
+    .companies-h5{
+        font-size: 44%;
+    }
+    .companies-p{
+        font-size: 40%;
+    }
+    .companies-img {
+        width: 48%;
+      }
+    .card-com{
+        width: 110%;
+    }
+    .connect-h3 {
+        font-size: large !important;
+      }
+    .back-video {
+        top: 91px;
+    }
+    .job-card-two{
+        margin-left: 5%;
+       }
+       .logo-footer {
+        width: 28%;
+      }
+      .nav-lg{
+        display: none;
+    }
+    .navbar-nav-1{
+        flex-direction: row;
+    }
+    .navbar-nav .nav-link {
+        padding-right: 15px;
+      }
+}
+
+@media screen and (max-width: 400px) and (min-width: 300px) {
+    .testimonial-review{
+        font-size: 36% !important;
+    }
+    .carousel-item-testimonial {
+        height:13vh !important;
+    }
+    .carosel-head {
+        margin-left: 10%;
+        font-size: 193% !important;
+        margin-top: 15% !important;
+        text-align: justify;
+    }
+
+    .nav-link {
+        font-size: x-small !important;
+    }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+    .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 109%;
+    }
+    .companies-img {
+        width: 48%;
+      }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        top: 55%;
+        left: 80%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 64%;
+    }
+
+    .category-card p {
+        font-size: x-small !important;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+    .navbar-brand {
+        margin-right: 1rem;
+      }
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 34%;
+        padding: 1% !important;
+        font-size: 0.15rem;
+    }
+    .back-video {
+        top: 91px;
+    }
+    .toogle-icon{
+        font-size: small!important;
+    }
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 17%;
+    }
+
+    .nav-link {
+        font-size: x-small !important;
+    }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+
+    .find-form {
+        margin-top: -65% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 109% !important;
+    }
+
+    .find-form .form-group .form-control {
+        height: 43px !important;
+        padding: 4px 13px 6px !important;
+    }
+
+    .find-form .nice-select {
+        height: 43px;
+        border-radius: 10px;
+        padding: 4px 13px 6px;
+        border: 1px solid #ced4da;
+        width: 109%;
+    }
+
+    .find-form .find-btn {
+        padding: 7px 20px;
+    }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 56vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        top: 55%;
+        left: 80%;
+        font-size: 38%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 45%;
+    }
+
+    .category-card p {
+        font-size: xx-small !important;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+    .navbar-brand {
+        margin-right: 1rem;
+      }
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+        width: 25%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 17%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .me-3 {
+        margin-right: 0.5rem !important;
+
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: small;
+    }
+
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 82% !important;
+        top: 234 !important;
+    }
+
+    .list-interview {
+        font-size: 65%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+
+    .card-chat-box {
+        width: 134% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 80%;
+    }
+
+    .middle-chat-box {
+        height: 20vh !important;
+    }
+
+    .choose-card-p {
+        font-size: x-small;
+    }
+
+    .choose-card h3 {
+        font-size: medium !important;
+    }
+
+    .section-title h2 {
+        font-size: large;
+    }
+
+    .full-nav {
+        font-size: 40%;
+    }
+
+    .city-name {
+        font-size: 60%;
+    }
+
+    .copyright-text p {
+        font-size: 65% !important;
+    }
+
+    .footer-section-2 {
+        font-size: xx-small;
+    }
+
+    .bg-h3 {
+        font-size: 120% !important;
+    }
+
+    .connect-h3 {
+        font-size: x-large !important;
+    }
+    .job-card-two{
+     margin-left: 7%;
+    }
+    .section-title p{
+        font-size: 63%;
+    }
+    .companies-h5{
+        font-size: 29%;
+    }
+    .companies-p{
+        font-size: 25%;
+    }
+    .card-com{
+        width: 120%;
+    }
+    .find-form .form-group, .find-form .nice-select, .find-form .find-btn {
+        width: 110% !important;
+        margin-top: 5% !important;
+      }
+      .counter-area .counter-text h2 {
+        font-size: 22px;
+      }
+      .counter-section .counter-text i {
+        font-size: 23px;
+      }
+      .article-p1{
+        font-size: x-small!important;
+      }
+    
+    .img-article-1 {
+      width: 5%;
+    }
+    .article-p3 {
+        font-size: x-small;
+      }
+      .job-card-two .job-info ul li {
+        display: block;
+        font-size: 13px;
+        padding-right: 10px;
+      }
+      .page-title ul {
+        padding: 3px;
+        font-size: xx-small;
+      }
+      .page-title ul li::before {
+        font-size: 18px;
+      }
+      .contact-social-icon-what, .contact-social-icon-in, .contact-social-icon-fa, .contact-social-icon-lin, .contact-social-icon-you {
+        font-size: medium;
+      }
+  .contact-area form .form-group .form-control {
+    height: 27px;
+    font-size: smaller;
+  
+  }
+  .contact-area form .list-unstyled {
+    font-size: small;
+    color: red;
+  }
+  .contact-btn{
+    font-size: xx-small;
+  }
+  .contact-area form .text-danger {
+    font-size: 8px;
+  }
+  .contact-card-section {
+    font-size: small;
+  }
+  .nav-lg{
+    display: none;
+}
+.navbar-nav-1{
+    flex-direction: row;
+}
+.navbar-nav .nav-link {
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 300px) and (min-width: 200px) {
+    .testimonial-review{
+        font-size: 35% !important;
+    }
+    .carousel-item-testimonial {
+        height:14vh !important;
+    }
+    .nav-link {
+        font-size: x-small !important;
+    }
+    .companies-img {
+        width: 48%;
+      }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+
+    .find-form {
+        margin-top: -65% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .find-form .form-group,
+    .find-form .nice-select,
+    .find-form .find-btn {
+        width: 109%;
+    }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: small !important;
+    }
+
+    .testimonial-text {
+        height: 41vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        top: 55%;
+        left: 80%;
+        font-size: 49%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 64%;
+    }
+
+    .category-card p {
+        font-size: x-small !important;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 40% !important;
+    }
+    .companies-h5{
+        font-size: 26%;
+    }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+    .job-h3 {
+        font-size: large;
+    }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 17%;
+    }
+
+    .carosel-head {
+        font-size: 43% !important;
+        margin-top: 16% !important;
+      }
+
+    .nav-link {
+        font-size: x-small !important;
+    }
+
+    .close-btn {
+        font-size: 100% !important;
+    }
+
+    .h2-chat-box {
+        font-size: 54% !important;
+        margin-left: -63%;
+    }
+
+    .find-form {
+        margin-top: -120% !important;
+        padding: 9px !important;
+        width: 70%;
+        margin-left: 14%;
+    }
+
+    .find-form .form-group, .find-form .nice-select, .find-form .find-btn {
+        width: 120% !important;
+        margin-top: 8%!important;
+      }
+
+    .find-form .form-group .form-control {
+        height: 43px !important;
+        padding: 4px 13px 6px !important;
+    }
+
+    .find-form .nice-select {
+        height: 43px;
+        border-radius: 10px;
+        padding: 4px 13px 6px;
+        border: 1px solid #ced4da;
+        width: 109%;
+    }
+    .find-form .nice-select .current {
+        font-size: 8px;
+        top: -5px;
+      }
+    .find-form .form-group i {
+        font-size: 12px !important;
+        
+      }
+
+    .find-form .find-btn {
+        padding: 7px 20px;
+        font-size: 9px;
+    }
+    .find-form .form-group ::placeholder {
+        font-size: 8px;
+      }
+
+    .logo-div-chat-box {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+
+    .testimonial-text p {
+        font-size: x-small !important;
+      }
+
+    .testimonial-text {
+        height: 42vh !important;
+    }
+
+    .div-ul-nav {
+        width: 360%;
+    }
+
+    .middle-chat-box {
+        font-size: x-small !important;
+    }
+
+    .find-job {
+        margin-top: -7% !important;
+    }
+
+    .formcontrol-1 {
+        margin-top: -2% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 78% !important;
+        font-size: small;
+    }
+
+    .connect-btn {
+        padding: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        top: 55%;
+        left: 75%;
+        font-size: 27%;
+    }
+
+    .choose-card-response {
+        margin-top: 0% !important;
+    }
+
+    .row {
+        width: 100%;
+    }
+
+    .jobs {
+        font-size: 24%;
+    }
+
+    .category-card p {
+        font-size: 28% !important;
+    }
+
+    .brand-logo-a {
+        width: 23%;
+    }
+
+    .brand-logo {
+        width: 100%;
+    }
+
+    .div-ul-nav {
+        width: 287%;
+    }
+
+    .banner-img {
+        width: 25%;
+        margin-top: 9%;
+    }
+
+    .banner-text h1 {
+        font-size: 190% !important;
+    }
+
+    .search-form {
+        margin-top: 2% !important;
+    }
+
+    .choose-card-response {
+        margin-top: 5% !important;
+    }
+
+    .company-logo {
+        margin-left: 30% !important;
+      }
+
+    .job-info span {
+        margin-left: -8%;
+    }
+
+    .theme-btn {
+        text-align: center;
+        margin-left: -4% !important;
+    }
+
+    .logo-footer {
+        margin-left: 0% !important;
+        width: 14%;
+    }
+
+    .navbar-toggler {
+        margin-left: 30%;
+        padding: 1% !important;
+        font-size: 0.25rem;
+    }
+    .toogle-icon{
+        font-size: small!important;
+    }
+
+    .job-h3 {
+        font-size: medium;
+      }
+
+    .contact-detail {
+        font-size: small !important;
+
+    }
+
+    .contact-card-section {
+        text-align: center;
+    }
+
+    .brand-quoete {
+        font-size: small !important;
+        text-align: center;
+    }
+
+    .logo-footer {
+        margin-left: 20%;
+        width: 25%;
+    }
+
+    .footer-,
+    .footer-widget {
+        text-align: center;
+        margin-left: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .job-card .job-save span {
+        width: 102% !important;
+    }
+
+    .page-title h2 {
+        font-size: 150%;
+    }
+
+    .list-interview {
+        font-size: 77%;
+        margin-top: 10%;
+    }
+
+    .interview-h4 {
+        font-size: 100%;
+    }
+
+    .entroll-h2 {
+        font-size: 95%;
+    }
+
+    .resume-img-a {
+        margin-left: 37%;
+    }
+
+    .interview-h2 {
+        font-size: 150%;
+    }
+
+    .pernsonality-h2 {
+        font-size: 145%;
+    }
+
+    .collapse-h2 {
+        font-size: 135%;
+    }
+
+    .persoanality-h4 {
+        font-size: 100%;
+    }
+
+    .persoanality-ul {
+        font-size: 75%;
+    }
+
+    .nav-link {
+        font-size: medium;
+    }
+
+    .section-chat-box {
+        top: 24% !important;
+        left: 53% !important;
+        /* width: 175% !important; */
+    }
+
+    .btn-whatsapp {
+        font-size: 49%;
+        left: 80% !important;
+        width: 17%;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    .me-3 {
+        margin-right: 0.5rem !important;
+
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .about-text p {
+        text-align: start;
+    }
+
+    .media-body p {
+        font-size: xx-small;
+      }
+    .article-p3 {
+        font-size: small;
+    }
+
+    .bg-h3-interview {
+        font-size: 120% !important;
+    }
+
+    .close-btn-a {
+        left: 82% !important;
+        top: 234 !important;
+    }
+
+    .list-interview {
+        font-size: 65%;
+        margin-top: 3%;
+    }
+
+    .show p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .persoanality-ul {
+        font-size: 95%;
+    }
+
+    .card-chat-box {
+        width: 134% !important;
+    }
+
+    .footer-input-chat-box {
+        width: 80%;
+    }
+
+    .middle-chat-box {
+        height: 20vh !important;
+    }
+
+    .choose-card-p {
+        font-size: x-small;
+    }
+
+    .choose-card h3 {
+        font-size: medium !important;
+    }
+
+    .section-title h2 {
+        font-size: large;
+    }
+
+    .full-nav {
+        font-size: 21%;
+      }
+    .city-name {
+        font-size: 46%;
+      }
+
+      .copyright-text p {
+        font-size: 46% !important;
+      }
+
+      .footer-section-2 {
+        font-size: 38%;
+      }
+
+      .bg-h3 {
+        font-size: 84% !important;
+      }
+
+      .connect-h3 {
+        font-size: large !important;
+      }
+    .back-video {
+        top: 91px;
+    }
+    .job-card-two{
+     margin-left: 7%;
+    }
+    .section-title p{
+        font-size: 63%;
+    }
+    .companies-h5{
+        font-size: 29% !important;
+    }
+    .companies-p{
+        font-size: 25%;
+    }
+    .card-com{
+        width: 140%;
+    }
+    .counter-area .counter-text h2 {
+        font-size: 22px;
+      }
+      .counter-section .counter-text i {
+        font-size: 23px;
+      }
+      .article-p1{
+        font-size: x-small!important;
+      }
+    
+    .img-article-1 {
+      width: 5%;
+    }
+    .article-p3 {
+        font-size: x-small;
+      }
+      .job-card-two .job-info ul li {
+        display: block;
+        font-size: 13px;
+        padding-right: 10px;
+      }
+      .page-title ul {
+        padding: 3px;
+        font-size: xx-small;
+      }
+      .page-title ul li::before {
+        font-size: 18px;
+      }
+      .contact-social-icon-what, .contact-social-icon-in, .contact-social-icon-fa, .contact-social-icon-lin, .contact-social-icon-you {
+        font-size: medium;
+      }
+  .contact-area form .form-group .form-control {
+    height: 27px;
+    font-size: smaller;
+  
+  }
+  .contact-area form .list-unstyled {
+    font-size: small;
+    color: red;
+  }
+  .contact-btn{
+    font-size: xx-small;
+  }
+  .contact-area form .text-danger {
+    font-size: 8px;
+  }
+  .contact-card-section {
+    font-size: small;
+  }
+  .nav-lg{
+    display: none;
+}
+.navbar-nav-1{
+    flex-direction: row;
+}
+.navbar-nav .nav-link {
+    padding-right: 0px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 576px) {
+.nav-width{
+    width: 40%;
+}
+}
+@media screen and (max-width: 576px){
+    .nav-width{
+        width: 45%;
+    }
+    }
